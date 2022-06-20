@@ -1,0 +1,23 @@
+.lazy-loading {
+    display: flex;
+    flex-direction: column;
+}
+
+.lazy-loading img {
+    width: 300px;
+    height: 400px;
+}
+
+body {
+    margin-left: 100px;
+}
+
+.lazy-loading img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+.lazy-loading img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+  }
+  

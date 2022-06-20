@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy Loading</title>
+    <meta name="description" 
+    content="Web design on lazy loading also known as asynchronous loading which is a 
+    design pattern commonly used in computer programming and mostly in the web design
+    and development to defer initialization of an object until the point at which it is needed.">
+    <link rel="stylesheet" href="lazyload.css">
+</head>
+<body>
+    <main>
+        <div class="lazy-loading">
+            <h1>Progressive Loading (Images)</h1>
+            <picture>
+                <img src="lazy-loading-images/tree.png"
+                data-src="https://picsum.photos/id/250/300/400" alt="lazy img">
+            </picture>
+            <picture>
+                <img src="lazy-loading-images/tree.png" 
+                data-src="https://picsum.photos/id/200/300/400" alt="lazy img">
+            </picture>
+            <picture>
+                <img src="lazy-loading-images/tree.png" 
+                data-src="https://picsum.photos/id/237/300/400" alt="lazy img">
+            </picture>
+            <picture>
+                <img src="lazy-loading-images/tree.png" 
+                data-src="https://picsum.photos/id/10/300/400" alt="lazy img">
+            </picture>
+            <picture>
+                <img src="lazy-loading-images/tree.png" 
+                data-src="https://picsum.photos/id/1005/300/400" alt="lazy img">
+            </picture>
+            <picture>
+                <img src="lazy-loading-images/tree.png" 
+                data-src="https://picsum.photos/id/240/300/400" alt="lazy img">
+            </picture>
+            <picture>
+                <img src="lazy-loading-images/tree.png" 
+                data-src="https://picsum.photos/id/120/300/400" alt="lazy img">
+            </picture>
+        </div>
+    </main>
+    <script src="lazyload.js"></script>
+</body>
+</html>
