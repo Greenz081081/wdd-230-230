@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@0;1&family=Space+Mono:ital@0;1&family=Ubuntu&display=swap');
+
+:root {
+	--back: hsla(150, 50%, 30%, 1);
+  --back2: hsla(150, 50%, 30%, .5);
+  --foredark: hsla(0,0%,10%,1);
+	--forelight: hsla(0,0%,100%,1);
+	--border: hsl(0,0%,20%);
+	--borderlight: hsl(0,0%,33%);
+	--shadow: hsl(0,0%,50%);
+	--zebra: hsl(0, 0%, 93%, 1);
+}
+
+table {
+    font-family: 'Ubuntu', sans-serif;
+	margin: 100px auto;
+	border: thin solid var(--border);
+	box-shadow: 0 0 30px var(--shadow);
+	border-collapse: collapse;
+}
+
+
+#november-sales-goal {
+    background-color: hsla(150, 50%, 30%, .5);
+}
+
+
+tr:first-child th {
+	background-color: var(--back);
+	color: var(--forelight);
+}
+
+th, td {
+	padding: 7px 15px;
+	border: 1px solid var(--borderlight);
+}
+
+th {
+	background-color: var(--back2);
+}
+
+td {
+	text-align: center;
+}
+
+tbody tr:nth-child(even) {
+	background-color: var(--zebra);
+}
+
+tfoot {
+    background-color:  hsla(150, 50%, 30%, 1);
+    color: white;
+}
+
+td:hover {
+	background-color: red;
+}
