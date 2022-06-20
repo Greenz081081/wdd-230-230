@@ -1,0 +1,16 @@
+@media (min-width: 32.5em) {
+    h2 {
+        font-size: 1.5rem;
+        color: black;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        color: black;
+    }
+
+    header img {
+        border-radius: 5px;
+        box-shadow: 5px 5px 4px 1px #888;
+    }
+}
