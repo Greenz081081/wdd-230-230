@@ -477,112 +477,117 @@ footer img {
     box-shadow: 10px 10px 10px #999;
 }
 
-/* table {
-    margin-left: -8px;
-    border: thin solid var(--border);
-    box-shadow: 0 0 30px var(--shadow);
-    border-collapse: collapse;
-    background-color: dimgrey;
-    --border: hsl(0,0%,20%);
-    --forelight: hsla(0,0%,100%,1);
-    --back: hsl(0,0%,50%);
-    width: 300px;
-}
+.join-home-grid {
+    /* display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 20px; */
 
-tr:first-child th {
-    background-color: var(--back);
-    color: var(--forelight);
-}
-
-th, td {
-    padding: 7px 15px;
-    border: 1px solid var(--borderlight);
-}
-
-th {
-    background-color: var(--back2);
-}
-
-td {
-    text-align: start;
-}
-
-tbody tr:nth-child(even) {
-    background-color: var(--zebra);
-}
-
-.join-main label {
-   text-align: left;
-}
-
-.join-main input {
     display: flex;
-    align-self: center;
-    width:250px;
+    flex-direction: column;
+}
+
+.form-grid {
+    /* grid-row: 1/4;
+    grid-column: 1/3; */
+    background-color: #999;
+    padding: 15px;
+    margin-left: 5px;
+    margin-top: 20px;
+    /* width: 570px; */
+    width: 280px;
+}
+
+.form-grid label {
+   text-align: left;
+   margin-top: 10px;
+}
+
+
+
+.form-grid input {
+    /* width: 550px; */
+    width: 270px;
     border: 0px;
     border-radius: 5px;
     padding: 5px;
+    margin-bottom: 10px;
 }
 
-.join-main {
-    padding: 20px;
-}
 
-.join-main #submit {
-    width: 80px;
+.form-grid #submit {
+    width: 100px;
     border: 1px;
-    border-radius: 30px;
-    margin-left: 115px;
+    border-radius: 5px;
+    margin-left: 80px;
     color: green;
+    margin-top: 20px;
 }
 
-.join-main #submit:hover {
+.form-grid #submit:hover {
     cursor: pointer;
 }
 
-.join-main button:hover {
+.form-grid button:hover {
     text-decoration: wavy;
     background-color: chartreuse;
 }
 
-.join-main textarea {
+.form-grid textarea {
     display: flex;
     align-self: center;
     border: 0px;
     border-radius: 5px;
-    width: 250px;
+    /* width: 550px; */
+    width: 270px;
+    margin-top: 5px;
+}
+
+#choose {
+    margin-top: 10px;
 }
 
 #autologin-1 {
-    float: left;
+    /* float: left; */
     width: auto;
+    
 }
 
 #autologin-2 {
-    float: left;
+    /* float: left; */
     width: auto;
+   
 }
 
 #autologin-3 {
-    float: left;
+    /* float: left; */
     width: auto;
+    
 }
 
 #autologin-4 {
-    float: left;
+    /* float: left; */
     width: auto;
+    
+}
+
+#np {
+    padding: 10px;
+    /* margin-top: -5px; */
 }
 
 #gold {
     padding: 10px;
+    /* margin-top: -5px; */
 }
 
 #bronze {
     padding: 10px;
+    /* margin-bottom: 5px; */
 }
 
 #silver {
     padding: 10px;
+    /* margin-top: -5px; */
 }
 
 #np-message {
@@ -609,11 +614,6 @@ tbody tr:nth-child(even) {
     color: gold;
 }
 
-#np {
-    padding: 10px;
-    margin-top: -5px;
-}
-
 #check-2 img {
     width: 20px;
     height: 20px;
@@ -622,8 +622,102 @@ tbody tr:nth-child(even) {
 #check-1 img {
     width: 20px;
     height: 20px;
-} */
+}
+
+#check-3 img {
+    width: 20px;
+    height: 20px;
+}
+
+#check-4 img {
+    width: 20px;
+    height: 20px;
+}
+
+#business-description {
+    margin-top: 20px;
+}
 
 .design {
     display: none;
+    grid-row: 1/4;
+    border-radius: 5px;
+    margin-left: 2px;
+    margin-top: 20px;
+    display: none;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+    grid-gap: 10px;
+    position: relative;
+}
+
+
+.design img {
+    display: none;
+    height: 700px;
+    width: 535px;
+}
+
+#call-to-action {
+    display: none;
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 250px;
+}
+
+#call-to-action a:hover {
+    display: none;
+    text-decoration: underline;
+}
+
+#call-to-action a {
+    display: none;
+    text-decoration: none;
+    color: black;
+}
+
+.thank-you {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    margin-top: 20px;
+}
+
+
+#welcome {
+    grid-row: 1/3;
+    grid-column: 1/3;
+    background-color: white;
+    margin-left: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px #999;
+}
+
+#thank-you-image-1 {
+    grid-row: 1/3;
+    grid-column: 3/4;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 0 10px #999;
+}
+
+#thank-you-image-1 img {
+    width: 200px;
+    height: 200px;
+    margin-left: 40px;
+}
+
+#thank-you-image-2 {
+    grid-row: 1/3;
+    grid-column: 4/5;
+    background-color: white;
+    margin-right: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px #999;
+}
+
+#thank-you-image-2 img {
+    width: 200px;
+    height: 200px;
+    margin-left: 40px;
 }
