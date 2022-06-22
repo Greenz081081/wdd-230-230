@@ -874,6 +874,10 @@
         padding: 2px;
     }
 
+    .benefits div {
+        width:auto ;
+    }
+
     #np-benefits {
         /* background-color: rgb(47, 172, 255); */
         background-color: white;
