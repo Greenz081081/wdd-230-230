@@ -9,6 +9,14 @@
         padding: 80px;
     }
 
+    .invite {
+        position: absolute;
+        margin-top: -50px;
+        margin-left: 350px;
+        font-size: 18px;
+        
+    }
+
     .site-logo h4 {
         margin-left: 90px;
         margin-top: -50px;
