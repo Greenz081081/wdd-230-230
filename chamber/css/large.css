@@ -846,69 +846,6 @@
         margin-top: 20px;
     }
 
-    .design {
-        display: inline;
-        grid-row: 1/4;
-        grid-column: 3/6;
-        border-radius: 5px;
-        margin-left: 100px;
-        width: 538px;
-        margin-top: 20px;
-    }
-
-    .design {
-        display: inline;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        padding: 10px;
-        grid-gap: 10px;
-        background-color:aliceblue;
-        position: relative;
-    }
-
-    .design img {
-        display: block;
-        height: 700px;
-        width: 535px;
-    }
-
-    /* .design {
-        display: none;
-        display: inline;
-        grid-row: 1/4;
-        grid-column: 3/6;
-        border-radius: 5px;
-        margin-left: 2px;
-        width: 538px;
-        margin-top: 20px;
-        display: none;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        padding: 10px;
-        grid-gap: 10px;
-        margin-right: 10px;
-        background-color:aliceblue;
-        position: relative;
-    } */
-
-    #call-to-action {
-        display: block;
-        position: absolute;
-        margin-top: 300px;
-        margin-left: 250px;
-    }
-
-    #call-to-action a:hover {
-        display: block;
-        text-decoration: underline;
-    }
-
-    #call-to-action a {
-        display: block;
-        text-decoration: none;
-        color: black;
-    }
-
     .thank-you {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;

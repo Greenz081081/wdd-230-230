@@ -649,44 +649,6 @@ footer img {
     margin-top: 20px;
 }
 
-.design {
-    display: none;
-    grid-row: 1/4;
-    border-radius: 5px;
-    margin-left: 2px;
-    margin-top: 20px;
-    display: none;
-    grid-template-columns: 1fr 1fr;
-    padding: 10px;
-    grid-gap: 10px;
-    position: relative;
-}
-
-
-.design img {
-    display: none;
-    height: 700px;
-    width: 535px;
-}
-
-#call-to-action {
-    display: none;
-    position: absolute;
-    margin-top: 400px;
-    margin-left: 250px;
-}
-
-#call-to-action a:hover {
-    display: none;
-    text-decoration: underline;
-}
-
-#call-to-action a {
-    display: none;
-    text-decoration: none;
-    color: black;
-}
-
 .thank-you {
     display: flex;
     flex-direction: column;
