@@ -705,6 +705,7 @@
         margin-left: 35px;
         margin-top: 20px;
         width: 570px;
+        border-radius: 10px;
     }
 
     .form-grid label {
@@ -845,6 +846,113 @@
     #business-description {
         margin-top: 20px;
     }
+
+    /* .benefits {
+        display: grid;
+        grid-template-columns: repeat(6 1fr);
+        grid-gap: 20px;
+    } */
+
+    .benefits {
+        display: block;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-gap: 5px;
+        grid-row: 1/4;
+        grid-column: 4/7;
+        /* background-color: #999; */
+        background-color: white;
+        margin-left: -80px;
+        margin-right: 20px;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+
+    .benefits p {
+        font-size: small;
+        text-align: center;
+        padding: 2px;
+    }
+
+    #np-benefits {
+        /* background-color: rgb(47, 172, 255); */
+        background-color: white;
+        grid-row: 1/2;
+        grid-column: 1/7;
+        margin-right: 10px;
+        height: 150px;
+        margin-left: 10px;
+        margin-top: 5px;
+        border-radius: 10px;
+        box-shadow: 0 0 30px #999;
+        border-top: 1px solid;
+    }
+
+    #np-header {
+        text-align: center;
+        font-size: small;
+        color:#2E0249;
+        text-shadow: 0 0 1px;
+    }
+
+    #bronze-benefits {
+        /* background-color: red; */
+        background-color: white;
+        grid-row: 2/3;
+        grid-column: 1/7; 
+        margin-right: 10px;
+        height: 150px;
+        margin-left: 10px;
+        border-radius: 10px;
+        box-shadow: 0 0 30px #999;
+    }
+
+    #bronze-header {
+        text-align: center;
+        font-size: small;
+        color:#2E0249;
+        text-shadow: 0 0 1px;
+    }
+
+    #silver-benefits {
+        background-color: white;
+        grid-row: 3/4;
+        grid-column: 1/7; 
+        margin-right: 10px;
+        height: 150px;
+        margin-left: 10px;
+        border-radius: 10px;
+        box-shadow: 0 0 30px #999;
+    }
+
+    #silver-header {
+        text-align: center;
+        font-size: small;
+        color:#2E0249;
+        text-shadow: 0 0 1px;
+    }
+
+    #gold-benefits {
+        /* background-color: gold; */
+        background-color: white;
+        grid-row: 4/5;
+        grid-column: 1/7; 
+        height: 150px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: -30px;
+        border-radius: 10px;
+        box-shadow: 0 0 30px #999;
+        border-bottom: 1px solid;
+    }
+
+    #gold-header {
+        text-align: center;
+        font-size: small;
+        color:#2E0249;
+        text-shadow: 0 0 1px;
+    }
+
 
     .thank-you {
         display: grid;
