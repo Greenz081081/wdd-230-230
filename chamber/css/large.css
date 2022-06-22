@@ -597,8 +597,7 @@
         right: 0;
         height: 100%;
         width: 100%;
-        opacity: 0;
-        transition: .5s ease;
+        opacity: 0; 
         background-color:white;
       }
       
@@ -878,6 +877,16 @@
         width:auto ;
     }
 
+    .benefits div {
+        transition: transform .2s;
+    }
+      
+    .benefits div:hover {
+        -ms-transform: scale(0.5); /* IE 9 */
+        -webkit-transform: scale(0.5); /* Safari 3-8 */
+        transform: scale(1.1); 
+    }
+
     #np-benefits {
         /* background-color: rgb(47, 172, 255); */
         background-color: white;
@@ -891,6 +900,7 @@
         box-shadow: 0 0 30px #999;
         border-top: 1px solid;
     }
+
 
     #np-header {
         text-align: center;

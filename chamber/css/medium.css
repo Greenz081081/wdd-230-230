@@ -563,4 +563,14 @@
         width: 300px;
     }
 
+    .benefits div {
+        transition: transform .2s;
+    }
+      
+    .benefits div:hover {
+        -ms-transform: scale(0.5); /* IE 9 */
+        -webkit-transform: scale(0.5); /* Safari 3-8 */
+        transform: scale(1.1); 
+    }
+
 }
