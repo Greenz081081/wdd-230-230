@@ -23,7 +23,7 @@ const dayname = daysName[day.getDay()];
 
 function displayMessage () {
 
-    if (dayname === "Wednesday") {
+    if (dayname === "Monday") {
         document.getElementById("invitation").innerHTML = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.";
     } else if (dayname === "Tuesday") {
         document.getElementById("invitation").innerHTML = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.";
