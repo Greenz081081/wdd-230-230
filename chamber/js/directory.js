@@ -1,4 +1,4 @@
-const requestURL = 'https://github.com/Greenz081081/wdd-230-230/blob/main/chamber/data.json';
+const requestURL = 'https://greenz081081.github.io/wdd-230-230/lesson%2009/data/data.json';
 const discoveryCards = document.querySelector('.cards');
 
 async function getCompanies () {

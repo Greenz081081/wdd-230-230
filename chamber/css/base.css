@@ -697,3 +697,12 @@ footer img {
     height: 100px;
     margin-left: 90px;
 }
+
+.cards img {
+    width: 300px;
+    height: 400px;
+}
+
+.cards section {
+    background-color: darkgoldenrod;
+}
