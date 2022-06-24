@@ -1,5 +1,5 @@
-const requestURL = 'chamber/data.json';
-const cards = document.querySelector('.cards');
+const requestURL = 'https://github.com/Greenz081081/wdd-230-230/blob/main/chamber/data.json';
+const discoveryCards = document.querySelector('.cards');
 
 async function getCompanies () {
   let response = await fetch(requestURL);
@@ -41,7 +41,7 @@ function buildCompanyCards(data) {
     card.appendChild(p);
     card.append(img)
 
-    cards.append(card);
+    discoveryCards.append(card);
   });
 }
 
