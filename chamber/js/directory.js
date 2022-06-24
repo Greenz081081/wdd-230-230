@@ -16,6 +16,8 @@ function buildCompanyCards(data) {
   data.companies.forEach(company => {
     let card = document.createElement("section");
     let p = document.createElement("p");
+    let p2 = document.createElement("p");
+    let p3 = document.createElement("p");
     let img = document.createElement("img");
     let h2 = document.createElement("h2");
     let h6 = document.createElement("h6");
@@ -28,8 +30,8 @@ function buildCompanyCards(data) {
     let numberOrder = `${company.order}`;
 
     h2.innerHTML = fullName;
-    p.innerHTML = `Address: ${companyAddress}`;
-    p.innerHTML = `Website: ${websiteUrl}`;
+    p2.innerHTML = `Address: ${companyAddress}`;
+    p3.innerHTML = `Website: ${websiteUrl}`;
     h6.innerHTML = `Phone: ${phoneNumber}`;
     p.innerHTML = `Membership: ${membershipLevel}`
     img.setAttribute("src", company.image);
@@ -39,6 +41,8 @@ function buildCompanyCards(data) {
     card.append(h2);
     card.append(h6)
     card.appendChild(p);
+    card.appendChild(p2);
+    card.appendChild(p3);
     card.append(img)
 
     discoveryCards.append(card);
