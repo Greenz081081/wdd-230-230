@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/shortcut_icon.png">
+    <title>Chamber Of Commerce</title>
+    <meta name="deacription" 
+        content="Home page for the chamber of commerce site. A home page 
+        known as the index.html which give's the introductory background 
+        of the site.">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/normalize.css">
+</head>
+<body>
+    <header>
+        <!-- <div class="invite"><span id="invitation"></span></div> -->
+        <div class="site-logo">
+            <img src="images/logo_2.jpg" alt="">
+            <h4>EChamberOfCommerce</h4>
+        </div>
+        <div class="invite"><span id="invitation"></span></div>
+            <nav class="header-nav">
+                <a id="whatsapp" href="https://www.whatsapp.com/"><img src="images/whatsapp.png" alt="WhatsApp Icon"></a>
+                <a id="facebook" href="https://www.whatsapp.com/"><img src="images/facebook_icon.png" alt="Facebook Icon"></a>
+                <button id="hamburgerButton">&#9776;</button>
+                <ul id="primaryNav">
+                    <li class="active"><a href="chamber.html">Home</a></li>
+                    <li><a href="target-audience.html">Target Audience</a></li>
+                    <li><a href="discovery.html">Discovery</a></li>
+                    <li><a href="join.html">Join</a></li>
+                </ul>
+                <div class="date"></div>
+            </nav>
+    </header>
+    <main>
+        <h1>Echamberofcommerce Affiliates</h1>
+        <div class="cards"></div>
+    </main>
+    <footer>
+        <picture id="footer-ribbon">
+            <img src="images/ribbon.png" alt="tree logo">
+        </picture>
+        <div class="footer-logo">
+            <img src="images/logo_2.jpg" alt="Footer Icon">
+        </div>
+        <section class="footer-heading">
+            <h2>EChamber Of Commerce</h2>
+            <p>Eket, Akwa Ibom State, Nigeria</p>
+        </section>
+        <div class="info">
+            <p>Mail: Blessededet94@gmail.com</p>
+            <p>Phone: +234 - 8108139886</p>
+            <p class="map-link"><a href="https://www.google.com/maps/place/Nigeria/@9.0338725,8.677457,6z/data=!3m1!4b1!4m5!3m4!1s0x104e0baf7da48d0d:0x99a8fe4168c50bc8!8m2!3d9.081999!4d8.675277">
+                <em>Location Map 🎈</em></a>
+            </p>
+        </div>
+        <p class="copyright">
+            &copy; 2022 Echamberofcommerce| Emediong H. Edet | WDD 230 Project | Last Modification: <span id="currentdate"></span>
+        </p>
+
+        <p class="number-of-visits"><span class="label">Number of Visits: </span><span class="visits"></span></p>
+        <!-- <p class="page-load">Current Page Load Timestamp: <span class="today"></span> in milliseconds.</p> -->
+    </footer>
+    <script src="js/chamber.js"></script>
+    <script src="js/date.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="js/discovery-visits.js"></script>
+    <script src="js/directory.js"></script>
+</body>
+</html>
