@@ -779,6 +779,10 @@ footer img {
     font-size: x-large;
 }
 
+.grid article, h6 {
+    display: none;
+}
+
 .list {
 	display: flex;
 	flex-direction: column;
@@ -840,4 +844,8 @@ article, section {
     position: absolute;
     font-size: x-large;
     margin-left: 20px;
+}
+
+.list article, h6 {
+    display: none;
 }

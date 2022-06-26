@@ -579,4 +579,37 @@
         align-items: center;
     }
 
+    .grid .cards section {
+        margin:10px auto;
+    }
+
+    .grid .cards section {
+        transition: transform .2s;
+    }
+      
+    .grid .cards section:hover {
+        -ms-transform: scale(0.5); /* IE 9 */
+        -webkit-transform: scale(0.5); /* Safari 3-8 */
+        transform: scale(1.1); 
+    }
+     
+    .list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .list .cards section {
+        width: 600px;
+    }
+
+    .list .cards section {
+        transition: transform .2s;
+    }
+      
+    .list .cards section:hover {
+        -ms-transform: scale(0.5); /* IE 9 */
+        -webkit-transform: scale(0.5); /* Safari 3-8 */
+        transform: scale(1.1); 
+    }
+
 }

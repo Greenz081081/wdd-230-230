@@ -98,6 +98,7 @@
     }
     .site-logo img {
         width: 80px;
+        margin-top: -10px;
     }
 
     main {
@@ -1133,6 +1134,7 @@
         box-shadow: 0 0 30px gray;
         padding: 20px;
         margin-left: 20px;
+        width: auto;
     }
     
     .list .cards section {
@@ -1149,5 +1151,6 @@
         position: absolute;
         font-size: x-large;
         margin-left: 200px;
+        margin-top: -1400px;
     }
 }
