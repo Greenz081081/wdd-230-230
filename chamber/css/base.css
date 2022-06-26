@@ -702,7 +702,7 @@ footer img {
 .cards img {
     width: 200px;
     height: 200px;
-    margin-left: 45px;
+    margin-left: 10px;
 }
 
 .grid .cards section {
@@ -712,17 +712,18 @@ footer img {
     width: 300px;
     box-shadow: 0 0 30px gray;
     border-radius: 5px;
-    margin:10px auto;
+    margin: auto;
+    margin-left: -27px;
 }
 
 .grid .cards section {
-    transition: transform .2s;
+    transition: none;
 }
   
 .grid .cards section:hover {
-    -ms-transform: scale(0.5); /* IE 9 */
-    -webkit-transform: scale(0.5); /* Safari 3-8 */
-    transform: scale(1.1); 
+    -ms-transform: none; /* IE 9 */
+    -webkit-transform: none; /* Safari 3-8 */
+    transform: none; 
 }
 
 .cards {
@@ -761,8 +762,10 @@ footer img {
 
 
 .grid .cards{
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
+	/* display: grid;
+	grid-template-columns: repeat(3, 1fr); */
+    display: flex;
+    flex-direction: column;
 	align-items: center;
 }
 
@@ -801,7 +804,8 @@ footer img {
 
 
 .list  section {
-	flex-direction: row;
+	/* flex-direction: row; */
+    flex-direction: column;
 	justify-content: left;
 }
 
@@ -817,20 +821,23 @@ article, section {
 .list .cards section {
     box-shadow: 0 0 30px gray;
     padding: 20px;
+    width: 100%;
+    margin-left: -20px;
 }
 
 .list .cards section {
-    transition: transform .2s;
+    /* transition: transform .2s; */
+    transition: none;
 }
   
 .list .cards section:hover {
-    -ms-transform: scale(0.5); /* IE 9 */
-    -webkit-transform: scale(0.5); /* Safari 3-8 */
-    transform: scale(1.1); 
+    -ms-transform: none; 
+    -webkit-transform: none; 
+    transform: none; 
 }
 
 .list #directory-header {
     position: absolute;
     font-size: x-large;
-    margin-left: 200px;
+    margin-left: 20px;
 }
