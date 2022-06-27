@@ -735,7 +735,8 @@ footer img {
 
 .cards p, h6 {
     text-align: center;
-    font-size: x-small;
+    font-size: small;
+    margin-top: -10px;
 }
 
 #directory-header {
@@ -779,9 +780,9 @@ footer img {
     font-size: x-large;
 }
 
-.grid article, h6 {
+/* .grid article, h6 {
     display: none;
-}
+} */
 
 .list {
 	display: flex;
@@ -846,6 +847,6 @@ article, section {
     margin-left: 20px;
 }
 
-.list article, h6 {
+.list article, h5 {
     display: none;
 }

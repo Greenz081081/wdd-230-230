@@ -1018,12 +1018,12 @@
     .cards img {
         width: 200px;
         height: 200px;
-        margin-left: 45px;
+        margin-left: 10px;
     }
     
     .grid .cards section {
         background-color: white;
-        padding:2px;
+        padding: 2px;
         height: 400px;
         width: 300px;
         box-shadow: 0 0 30px gray;
@@ -1050,7 +1050,9 @@
     
     .cards p, h6 {
         text-align: center;
-        font-size: x-small;
+        font-size: 14px;
+        padding: 1px;
+        margin-top: -5px;
     }
     
     #directory-header {
@@ -1061,6 +1063,7 @@
     .cards h2 {
         text-align: center;
         font-size: 16px;
+        padding: 1px;
     }
     
     .menu {
@@ -1106,7 +1109,7 @@
     }
     
     .list section > * {
-        margin: 0 1rem;
+        /* margin: 0 1rem; */
         text-align: left;
     }
     
@@ -1126,15 +1129,16 @@
         display: none; 
     }
     
-    article, section {
+    /* article, section {
         margin: 0.75rem;
-    }
+    } */
     
     .list .cards section {
         box-shadow: 0 0 30px gray;
         padding: 20px;
+        width: 100%;
         margin-left: 20px;
-        width: auto;
+        align-items: center;
     }
     
     .list .cards section {
@@ -1150,7 +1154,11 @@
     .list #directory-header {
         position: absolute;
         font-size: x-large;
-        margin-left: 200px;
+        margin-left: 450px;
         margin-top: -1400px;
+    }
+
+    .list .cards {
+        align-items: center;
     }
 }
