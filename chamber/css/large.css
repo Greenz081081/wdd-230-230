@@ -1137,7 +1137,7 @@
         box-shadow: 0 0 30px gray;
         padding: 20px;
         width: 100%;
-        margin-left: 40px;
+        margin-left: 10px;
         align-items: center;
     }
     
@@ -1154,7 +1154,7 @@
     .list #directory-header {
         position: absolute;
         font-size: x-large;
-        margin-left: 450px;
+        margin-left: 250px;
         margin-top: -1400px;
     }
 
