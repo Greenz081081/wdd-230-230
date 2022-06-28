@@ -1,8 +1,6 @@
 // select HTML elements in the document
 const currentTemp = document.querySelector('#current-temp');
-const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
-const sectiondesc = document.querySelector('section');
 
 
 const url = `https://api.openweathermap.org/data/2.5/weather?q=Fairbanks&units=Imperial&
@@ -34,20 +32,22 @@ function displayResults(weatherData) {
     const humidity = weatherData.main.humidity;
     const temp = weatherData.main.temp;
 
+    
     let section = document.createElement("section");
+    let image = document.createElement("img");
     let p = document.createElement("p");
     let p2 = document.createElement("p");
     let p3 = document.createElement("p");
     
-
-
-    weatherIcon.setAttribute('src', iconsrc);
-    weatherIcon.setAttribute('alt', desc);
+    
+    image.setAttribute('src', iconsrc);
+    image.setAttribute('alt', desc);
     captionDesc.innerHTML = desc[0].toUpperCase() + desc.slice(1);
     p.innerHTML = `<strong>Wind:</strong> ${speed.toFixed(1)}mph W`;
     p2.innerHTML = `<strong>Humidity:</strong> ${humidity}%`;
     p3.innerHTML = `<strong>Temp:</strong> ${temp}&deg;F`;
 
+    section.append(image);
     section.appendChild(p);
     section.appendChild(p2);
     section.appendChild(p3);

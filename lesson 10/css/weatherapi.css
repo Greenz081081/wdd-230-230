@@ -10,7 +10,6 @@ header, main, footer {
 }
 
 main {
-    /* border: 1px solid; */
     height: 300px;
     padding: 10px;
     background-color: white;
@@ -39,7 +38,11 @@ h2 {
     color: blue;
     text-shadow: 0 0 5px;
 }
-p, h2, #weather-icon, figcaption {
+p, h2, figcaption {
+    margin-top: 10px;
+}
+
+figure img {
     margin-top: 10px;
 }
 
