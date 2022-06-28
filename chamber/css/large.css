@@ -314,7 +314,7 @@
     }
 
     figcaption p {
-        font-size: x-small;
+        font-size: small;
         margin-top: -18px;
     }
 
@@ -322,14 +322,18 @@
         font-size: small;
         border-bottom: 1px solid;
         text-shadow: 0 0 5px;
-    }
-
-    #weather-icon {
-        margin-top: -15px;
+        padding: 5px;
     }
 
     #current-temp {
+        margin-top: 40px;
         font-size: large;
+    }
+
+    figcaption img {
+        margin-top: -85px;
+        margin-left: 40px;
+        padding: 5px;
     }
 
     #submit {
