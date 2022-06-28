@@ -599,7 +599,7 @@
     }
 
     .list .cards section {
-        width: 600px;
+        width: 100%;
     }
 
     .list .cards section {
@@ -610,6 +610,23 @@
         -ms-transform: scale(0.5); /* IE 9 */
         -webkit-transform: scale(0.5); /* Safari 3-8 */
         transform: scale(1.1); 
+    }
+
+    .list section > * {
+        text-align: left;
+        margin: auto;
+    }
+
+    .list section {
+        justify-content: left;
+        flex-direction: row;
+    }
+
+    .list #directory-header {
+        position: absolute;
+        font-size: x-large;
+        margin-left: 130px;
+        margin-top: -1500px;
     }
 
 }

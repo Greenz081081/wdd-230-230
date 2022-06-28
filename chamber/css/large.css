@@ -1098,6 +1098,7 @@
     .list {
         display: flex;
         flex-direction: column;
+        margin: auto;
     }
     
     
@@ -1109,8 +1110,8 @@
     }
     
     .list section > * {
-        /* margin: 0 1rem; */
         text-align: left;
+        margin: auto;
     }
     
     .list section h1 {
@@ -1129,15 +1130,11 @@
         display: none; 
     }
     
-    /* article, section {
-        margin: 0.75rem;
-    } */
     
     .list .cards section {
         box-shadow: 0 0 30px gray;
         padding: 20px;
         width: 100%;
-        margin-left: 10px;
         align-items: center;
     }
     
@@ -1146,8 +1143,8 @@
     }
       
     .list .cards section:hover {
-        -ms-transform: scale(0.5); /* IE 9 */
-        -webkit-transform: scale(0.5); /* Safari 3-8 */
+        -ms-transform: scale(0.5); 
+        -webkit-transform: scale(0.5); 
         transform: scale(1.1); 
     }
     
@@ -1156,9 +1153,5 @@
         font-size: x-large;
         margin-left: 250px;
         margin-top: -1400px;
-    }
-
-    .list .cards {
-        align-items: center;
     }
 }
