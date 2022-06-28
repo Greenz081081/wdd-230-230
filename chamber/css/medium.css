@@ -221,11 +221,15 @@
         margin-left: 5px;
     }
 
+    figcaption p {
+        font-size: small;
+    }
+/* 
     #weather-image img {
         width: 80px;
         height: 80px;
         margin-left: 70px;
-    }
+    } */
     
     
     footer {

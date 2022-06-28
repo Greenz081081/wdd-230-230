@@ -200,6 +200,7 @@ nav ul.open {
     text-align: center;
     color: #06113C;
     text-shadow: 0 0 1px;
+    margin-top: 10px;
 }
 
 .spotlights img {
@@ -226,11 +227,12 @@ main h5 {
     text-align: center;
     color: #06113C;
     text-shadow: 0 0 1px;
+    margin-top: 10px;
 }
 
 .event p {
     text-align: center;
-    margin-top: -12px;
+    margin-top: -8px;
 }
 
 #info a {
@@ -298,17 +300,43 @@ main p {
     font-size: 10px;
 }
 
+
+
 .weather h2 {
     text-align: center;
     color: #06113C;
     text-shadow: 0 0 1px;
 }
 
+
+figcaption p {
+    font-size: small;
+    margin-top: -18px;
+    margin-left: 5px;
+}
+
+figcaption h6 {
+    font-size: small;
+    border-bottom: 1px solid;
+    text-shadow: 0 0 5px;
+    padding: 5px;
+}
+
+#current-temp {
+    margin-top: 2px;
+    font-size: large;
+}
+
+figcaption img {
+    margin-top: -85px;
+    margin-left: 40px;
+    padding: 5px;
+}
+
 #currentweather {
     border-bottom: 1px solid;
     text-align: center;
 }
-
 
 .windchill input {
     width: 35px;
