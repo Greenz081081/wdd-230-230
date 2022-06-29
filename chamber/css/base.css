@@ -135,32 +135,24 @@ nav ul.open {
     padding: 10px;
 }
 
-.join {
+#join-button {
     position: absolute;
-    top: 150px;
-    left: 120px;
+    top: 160px;
+    right: 20px;
     border: 1px solid;
     border-radius: 15px;
-    color: white;
-    background-color:#2E0249;
+    background-color:#18978F;
     width: 150px;
     height: 45px;
     font-size: 15px;
-    margin-top: -40px;
-    
 }
 
-.join a {
+#join-button a {
     color: white;
     text-decoration: none;
 }
 
-.join p {
-    text-align: center;
-    margin-top: 5px;
-}
-
-.join a:hover {
+#join-button a:hover {
     text-decoration: underline;
 }
 
