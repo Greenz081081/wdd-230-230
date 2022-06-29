@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 header {
     display: flex;
     justify-content: center;
@@ -28,7 +34,7 @@ header img {
     border-radius: 200px;
     padding: 2px;
     box-shadow: 5px 5px 5px #999;
-    margin-top: 10px;
+    margin-top: 3px;
 } 
 
 .site-logo h4 {
@@ -64,6 +70,7 @@ nav button {
     font-size: 20px;
     color: #555;
     margin-top: 10px;
+    /* height: 0px; */
 }
 
 nav ul li a {
@@ -95,7 +102,8 @@ nav ul.open {
 
 .home-grid {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(auto-fit, 6, 1fr);
+    /* grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); */
     grid-gap: 10px;
     padding: 5px;
     position: relative;
@@ -111,7 +119,7 @@ nav ul.open {
 .hero-image img {
 
     height: 200px;
-    width: 118%;
+    width: 100%;
     /* margin-left: 5px; */
 }
 
@@ -232,7 +240,7 @@ main h5 {
 
 .event p {
     text-align: center;
-    margin-top: -8px;
+    margin-top: 5px;
 }
 
 #info a {
@@ -293,8 +301,9 @@ main p {
     grid-column: 1/7;
     height: 200px;
     width: 200px;
-    margin-left: 50px;
-    margin-top: 5px;
+    /* margin-left: 50px; */
+    margin: auto;
+    /* margin-top: 5px; */
     padding: 5px;
     box-shadow: 0 0 10px #999;
     font-size: 10px;
@@ -311,7 +320,7 @@ main p {
 
 figcaption p {
     font-size: small;
-    margin-top: -18px;
+    /* margin-top: -18px; */
     margin-left: 5px;
 }
 
@@ -328,7 +337,7 @@ figcaption h6 {
 }
 
 figcaption img {
-    margin-top: -85px;
+    /* margin-top: -85px; */
     margin-left: 40px;
     padding: 5px;
 }
@@ -735,13 +744,13 @@ footer img {
 
 .grid .cards section {
     background-color: white;
-    padding:2px;
+    padding:10px;
     height: 400px;
-    width: 300px;
+    width: 100%;
     box-shadow: 0 0 30px gray;
     border-radius: 5px;
     margin: auto;
-    margin-left: -27px;
+    margin-left: -3px;
 }
 
 .grid .cards section {
@@ -764,7 +773,6 @@ footer img {
 .cards p, h6 {
     text-align: center;
     font-size: small;
-    margin-top: -10px;
 }
 
 #directory-header {
@@ -773,6 +781,7 @@ footer img {
 }
 
 .cards h2 {
+    padding: 10px;
     text-align: center;
     font-size: 16px;
 }
@@ -791,8 +800,6 @@ footer img {
 
 
 .grid .cards{
-	/* display: grid;
-	grid-template-columns: repeat(3, 1fr); */
     display: flex;
     flex-direction: column;
 	align-items: center;
@@ -808,9 +815,9 @@ footer img {
     font-size: x-large;
 }
 
-/* .grid article, h6 {
-    display: none;
-} */
+.grid article, section {
+    margin: 0.25rem;
+}
 
 .list {
 	display: flex;
@@ -847,19 +854,18 @@ footer img {
 	display: none; 
 }
 
-article, section {
-    margin: 0.75rem;
+.list article, section {
+    margin: 0.25rem;
 }
 
 .list .cards section {
     box-shadow: 0 0 30px gray;
     padding: 20px;
     width: 100%;
-    margin-left: -20px;
+    margin-left: -2px;
 }
 
 .list .cards section {
-    /* transition: transform .2s; */
     transition: none;
 }
   

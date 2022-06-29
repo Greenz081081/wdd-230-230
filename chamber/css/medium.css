@@ -583,12 +583,14 @@
         align-items: center;
     }
 
-    .grid .cards section {
+    /* .grid .cards section {
         margin:10px auto;
-    }
+    } */
 
     .grid .cards section {
         transition: transform .2s;
+        width: 300px;
+        margin: 10px auto;
     }
       
     .grid .cards section:hover {
