@@ -484,6 +484,10 @@ footer img {
   padding: 5px;
 }
 
+.text {
+    display: none;
+}
+
 #airport-image img {
     width: 100px;
     height: 100px;

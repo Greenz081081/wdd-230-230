@@ -661,6 +661,10 @@
         margin-top: 20px;
     }
 
+    .text {
+        display: block;
+    }
+
     hr {
         display: none;
     }
