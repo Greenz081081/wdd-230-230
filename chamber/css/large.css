@@ -138,21 +138,6 @@
         text-shadow: 0 0 1px;
         top: 20px;
     }
-    
-    /* .join {
-        position: absolute;
-        top: 360px;
-        right: 280px;
-        margin: auto;
-        border: 1px solid;
-        border-radius: 15px;
-        color: white;
-        background-color:#2E0249;
-        width: 150px;
-        height: 45px;
-        font-size: 15px;
-        
-    } */
 
     #join-button {
         position: absolute;
@@ -727,9 +712,9 @@
         background-color: #999;
         padding: 15px;
         margin: auto;
-        margin-top: 20px;
+        margin-top: 30px;
         margin-left: 20px;
-        width: 130%;
+        width: 120%;
         border-radius: 10px;
     }
 
@@ -871,7 +856,7 @@
         grid-column: 4/7;
         background-color: white;
         margin: 10px auto;
-        margin-top: 20px;
+        margin-top: 30px;
         border-radius: 10px;
     }
 
@@ -1072,14 +1057,8 @@
     
     .menu {
         margin: 1rem auto;
-        border: 1px solid rgba(0, 0, 0, 0.1);
         padding: 0.5rem;
-        background-color: #bbb;
         text-align: center;
-    }
-    
-    .menu button {
-        padding: 1rem;
     }
     
     

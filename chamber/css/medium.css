@@ -66,13 +66,13 @@
         grid-row: 1;
         height: 230px;
         padding: 10px;
-        margin-left: -14px;
-        margin-top: -15px;
+        box-shadow: 0 0 10px grey;
+        margin-top: 10px;
     }
 
     .hero-image img {
-        width: 106%;
-        height: 250px;
+        width: 100%;
+        height: 210px;
     }
 
     main p {
@@ -81,9 +81,10 @@
 
     .date {
         position: absolute;
-        left: 330px;
+        left: 0px;
         text-align: center;
-        margin-top: -4px;
+        margin-top: 15px;
+        width: 100%;
     }
 
     .release {
@@ -93,19 +94,8 @@
         padding: 5px;
     }
 
-    .join {
-        position: absolute;
-        top: 180px;
-        left: 570px;
-        border: 1px solid;
-        border-radius: 15px;
-        color: white;
-        background-color:#2E0249;
-        width: 150px;
-        height: 45px;
-        font-size: 15px;
-        margin-top: -40px;
-        
+    .welcome {
+        top: 20px;
     }
 
     #join {
@@ -121,12 +111,12 @@
     .join-us {
         display: block;
         position: absolute;
-        top: 760px;
+        top: 800px;
         left: 20px;
         border: 1px solid;
         border-radius: 15px;
         color: white;
-        background-color:#2E0249;
+        background-color:#18978F;
         width: 730px;
         height: 40px;
     }

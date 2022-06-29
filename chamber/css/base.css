@@ -12,7 +12,8 @@ header {
     border-bottom: 1px solid #bbb;
     padding: 16px;
     margin-bottom: -5px;
-    position: relative;
+    /* position: relative; */
+    /* height: 60px; */
 }
 
 header img {
@@ -49,9 +50,14 @@ header img {
 
 .date {
     position: absolute;
-    left: 115px;
+    left: 0px;
     text-align: center;
-    margin-top: -4px;
+    margin-top: 20px;
+    border: 1px solid;
+    width: 100%;
+    background-color: #18978F;
+    color: white;
+    padding: 2px;
 }
 
 nav {
@@ -107,7 +113,6 @@ nav ul.open {
 .home-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, 6, 1fr);
-    /* grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); */
     grid-gap: 10px;
     padding: 5px;
     position: relative;
@@ -117,14 +122,14 @@ nav ul.open {
 .hero-image {
     grid-column: 1/7;
     padding: 5px;
-    margin-left: -8px;
+    margin-left: 3px;
+    margin-top: 30px;
+    box-shadow: 0 0 10px grey;
 }
 
 .hero-image img {
-
     height: 200px;
     width: 100%;
-    /* margin-left: 5px; */
 }
 
 .welcome {
@@ -133,6 +138,7 @@ nav ul.open {
     color: #06113C;
     text-shadow: 0 0 1px;
     padding: 10px;
+    margin-top: 30px;
 }
 
 #join-button {
@@ -224,7 +230,7 @@ main h5 {
     height: 200px;
     padding: 5px;
     box-shadow: 0 0 10px #999;
-    margin-top: -10px;
+    margin-top: -5px;
 }
 
 .event h6 {
@@ -487,6 +493,27 @@ footer img {
     box-shadow: none;
 }
 
+#airport {
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+#longbeach {
+    margin-left: 5px;
+}
+
+#monument {
+    margin-left: 5px;
+}
+
+#stadium {
+    margin-left: 5px;
+}
+
+#library {
+    margin-left: 5px;
+}
+
 #longbeach-image img {
     width: 100px;
     height: 100px;
@@ -536,8 +563,9 @@ footer img {
 .form-grid {
     background-color: #999;
     padding: 15px;
-    margin-top: 20px;
-    width:auto;
+    margin-top: 30px;
+    width: auto;
+    margin-top: 32px;
 }
 
 .form-grid label {
@@ -772,14 +800,20 @@ footer img {
 
 .menu {
     margin: 1rem auto;
-    border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0.5rem;
-    background-color: #bbb;
     text-align: center;
 }
 
-.menu button {
+.menu img {
     padding: 1rem;
+    margin-top: 10px;
+}
+
+.menu img {
+    height: 60px;
+    width: 60px;
+    border: 1px solid #ccc;
+    background-color: transparent;
 }
 
 
