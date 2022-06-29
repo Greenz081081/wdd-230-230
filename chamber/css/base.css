@@ -10,7 +10,7 @@ header {
     flex-direction: row;
     background-color:#B8FFF9;
     border-bottom: 1px solid #bbb;
-    padding: 10px;
+    padding: 16px;
     margin-bottom: -5px;
     position: relative;
 }
@@ -19,6 +19,10 @@ header img {
     width: 20px;
     box-shadow: 5px 5px 5px #999;
     border-radius: 200px;
+}
+
+#whatsapp {
+    margin-left: 10px;
 }
 
 .invite {
@@ -30,11 +34,11 @@ header img {
 }
 
 .site-logo img {
-    width: 60px;
+    width: 50px;
     border-radius: 200px;
     padding: 2px;
     box-shadow: 5px 5px 5px #999;
-    margin-top: 3px;
+    margin-top: -9px;
 } 
 
 .site-logo h4 {
@@ -53,7 +57,7 @@ header img {
 nav {
     font-size: small;
     list-style-type: none;
-    margin-top: 20px;
+    margin-top: -1px;
     text-align:right;
 }
 
@@ -69,8 +73,8 @@ nav button {
     border: .5px solid;
     font-size: 20px;
     color: #555;
-    margin-top: 10px;
-    /* height: 0px; */
+    margin-top: 5px;
+    margin-left: 5px;
 }
 
 nav ul li a {
@@ -347,18 +351,6 @@ figcaption img {
     text-align: center;
 }
 
-.windchill input {
-    width: 35px;
-}
-
-.windchill {
-    margin-top: 5px;
-}
-
-.windspeed input {
-    width: 35px;
-}
-
 #weather-image img {
     width: 80px;
     height: 80px;
@@ -442,6 +434,18 @@ footer {
     margin-top: 10px;
 }
 
+.footer-heading{
+    padding: 10px;
+}
+
+.info {
+    padding: 10px;
+}
+
+.copyright {
+    padding: 6px;
+}
+
 footer img {
     width: 40px;
     margin-top: 20px;
@@ -517,32 +521,27 @@ footer img {
 
 .number-of-visits {
     grid-column: 2/4;
+    width: 200px;
     text-align: center;
     color: white;
     background-color: #06113C;
-    padding: 10px;
+    padding: 5px;
     border-radius: 10px;
     box-shadow: 10px 10px 10px #999;
+    margin-left: 10px;
+    margin: auto;
 }
 
 .join-home-grid {
-    /* display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-gap: 20px; */
-
     display: flex;
     flex-direction: column;
 }
 
 .form-grid {
-    /* grid-row: 1/4;
-    grid-column: 1/3; */
     background-color: #999;
     padding: 15px;
-    margin-left: 5px;
     margin-top: 20px;
-    /* width: 570px; */
-    width: 280px;
+    width:auto;
 }
 
 .form-grid label {
@@ -550,11 +549,8 @@ footer img {
    margin-top: 10px;
 }
 
-
-
 .form-grid input {
-    /* width: 550px; */
-    width: 270px;
+    width: 100%;
     border: 0px;
     border-radius: 5px;
     padding: 5px;
@@ -566,9 +562,10 @@ footer img {
     width: 100px;
     border: 1px;
     border-radius: 5px;
-    margin-left: 80px;
+    margin:auto;
     color: green;
     margin-top: 20px;
+    margin-left: 130px;
 }
 
 .form-grid #submit:hover {
@@ -585,8 +582,7 @@ footer img {
     align-self: center;
     border: 0px;
     border-radius: 5px;
-    /* width: 550px; */
-    width: 270px;
+    width: 100%;
     margin-top: 5px;
 }
 
@@ -595,47 +591,39 @@ footer img {
 }
 
 #autologin-1 {
-    /* float: left; */
     width: auto;
     
 }
 
 #autologin-2 {
-    /* float: left; */
     width: auto;
    
 }
 
 #autologin-3 {
-    /* float: left; */
     width: auto;
     
 }
 
 #autologin-4 {
-    /* float: left; */
     width: auto;
     
 }
 
 #np {
     padding: 10px;
-    /* margin-top: -5px; */
 }
 
 #gold {
     padding: 10px;
-    /* margin-top: -5px; */
 }
 
 #bronze {
     padding: 10px;
-    /* margin-bottom: 5px; */
 }
 
 #silver {
     padding: 10px;
-    /* margin-top: -5px; */
 }
 
 #np-message {
@@ -758,8 +746,8 @@ footer img {
 }
   
 .grid .cards section:hover {
-    -ms-transform: none; /* IE 9 */
-    -webkit-transform: none; /* Safari 3-8 */
+    -ms-transform: none; 
+    -webkit-transform: none; 
     transform: none; 
 }
 
@@ -844,7 +832,6 @@ footer img {
 
 
 .list  section {
-	/* flex-direction: row; */
     flex-direction: column;
 	justify-content: left;
 }

@@ -8,7 +8,6 @@
         padding: 10px;
     }
     
-    
     .whatsapp img {
         padding: 10px;
         border-radius: 200px;
@@ -224,13 +223,6 @@
     figcaption p {
         font-size: small;
     }
-/* 
-    #weather-image img {
-        width: 80px;
-        height: 80px;
-        margin-left: 70px;
-    } */
-    
     
     footer {
         display: flex;
@@ -372,47 +364,39 @@
      }
  
      #autologin-1 {
-         /* float: left; */
          width: auto;
          
      }
  
      #autologin-2 {
-         /* float: left; */
          width: auto;
         
      }
  
      #autologin-3 {
-         /* float: left; */
          width: auto;
          
      }
  
      #autologin-4 {
-         /* float: left; */
          width: auto;
          
      }
  
      #np {
-         padding: 10px;
-         /* margin-top: -5px; */
+        padding: 10px;
      }
  
      #gold {
-         padding: 10px;
-         /* margin-top: -5px; */
+        padding: 10px;
      }
  
      #bronze {
-         padding: 10px;
-         /* margin-bottom: 5px; */
+        padding: 10px;
      }
  
      #silver {
-         padding: 10px;
-         /* margin-top: -5px; */
+        padding: 10px;
      }
  
      #np-message {
@@ -470,7 +454,6 @@
         grid-gap: 5px;
         grid-row: 1/4;
         grid-column: 4/6;
-        /* background-color: #999; */
         background-color: white;
         margin-left: -20px;
         margin-right: 20px;
@@ -485,7 +468,6 @@
     }
 
     #np-benefits {
-        /* background-color: rgb(47, 172, 255); */
         background-color: white;
         grid-row: 1/2;
         grid-column: 1/7;
@@ -506,7 +488,6 @@
     }
 
     #bronze-benefits {
-        /* background-color: red; */
         background-color: white;
         grid-row: 2/3;
         grid-column: 1/7; 
@@ -543,7 +524,6 @@
     }
 
     #gold-benefits {
-        /* background-color: gold; */
         background-color: white;
         grid-row: 4/5;
         grid-column: 1/7; 
@@ -572,8 +552,8 @@
     }
       
     .benefits div:hover {
-        -ms-transform: scale(0.5); /* IE 9 */
-        -webkit-transform: scale(0.5); /* Safari 3-8 */
+        -ms-transform: scale(0.5);
+        -webkit-transform: scale(0.5);
         transform: scale(1.1); 
     }
 
@@ -583,10 +563,6 @@
         align-items: center;
     }
 
-    /* .grid .cards section {
-        margin:10px auto;
-    } */
-
     .grid .cards section {
         transition: transform .2s;
         width: 300px;
@@ -594,8 +570,8 @@
     }
       
     .grid .cards section:hover {
-        -ms-transform: scale(0.5); /* IE 9 */
-        -webkit-transform: scale(0.5); /* Safari 3-8 */
+        -ms-transform: scale(0.5);
+        -webkit-transform: scale(0.5);
         transform: scale(1.1); 
     }
      
@@ -613,8 +589,8 @@
     }
       
     .list .cards section:hover {
-        -ms-transform: scale(0.5); /* IE 9 */
-        -webkit-transform: scale(0.5); /* Safari 3-8 */
+        -ms-transform: scale(0.5);
+        -webkit-transform: scale(0.5);
         transform: scale(1.1); 
     }
 
