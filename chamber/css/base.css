@@ -572,6 +572,7 @@ footer img {
     margin-top: 30px;
     width: auto;
     margin-top: 32px;
+    border-radius: 10px;
 }
 
 .form-grid label {
@@ -906,4 +907,84 @@ footer img {
 
 .list article, h5 {
     display: none;
+}
+
+.contact-form-grid {
+    background-color: #999;
+    padding: 15px;
+    margin: auto;
+    margin-top: 30px;
+    margin-left: 0px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.contact-form-grid label {
+   text-align: left;
+   margin-top: 10px;
+}
+
+.contact-form-grid input {
+    width: 100%;
+    border: 0px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+
+.contact-form-grid #submit {
+    width: 100px;
+    border: 1px;
+    border-radius: 5px;
+    color: green;
+    margin-top: 20px;
+    margin-left: 120px;
+}
+
+.contact-form-grid #submit:hover {
+    cursor: pointer;
+}
+
+.contact-form-grid button:hover {
+    text-decoration: wavy;
+    background-color: chartreuse;
+}
+
+.contact-form-grid textarea {
+    display: flex;
+    align-self: center;
+    border: 0px;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.contact {
+    border: 1px solid;
+    border-style: ridge;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 30px;
+    margin-left: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.contact h6 {
+    margin-left: 8px;
+}
+
+.contact p {
+    margin-left: 4px;
+}
+
+.contact img {
+    margin-left: 4px;
+    margin-top: 20px;
+}
+
+.contact h1 {
+    margin-left: 4px;
+    margin-top: -2px;
 }
