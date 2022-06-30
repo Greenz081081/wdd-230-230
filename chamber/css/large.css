@@ -154,6 +154,12 @@
     #join-button a {
         color: white;
         text-decoration: none;
+        padding: 5px;
+    }
+
+    #join-button p {
+        margin-top: 8px;
+        margin-left: 5px;
     }
 
     #join-button a:hover {
@@ -319,6 +325,10 @@
         font-size: x-small;
     }
 
+    .weather h2 {
+        margin-top: 5px;
+    }
+
     figcaption p {
         font-size: small;
         margin-top: 10px;
@@ -350,7 +360,7 @@
         display: grid;
         grid-template-columns: repeat(6, 1fr);
         font-size: 15px;
-        background-color:#85F4FF;
+        background-color:#B8FFF9;
         text-align: center;
         list-style-type: none;
         padding: 20px;

@@ -3,7 +3,7 @@ const currentTemp = document.querySelector('#current-temp');
 const captionDesc = document.querySelector('figcaption');
 
 
-const url = `https://api.openweathermap.org/data/2.5/weather?q=Eket,234&
+const url = `https://api.openweathermap.org/data/2.5/weather?q=Eket,NG&units=Imperial&
 appid=cb411365f163ce2a1a5d327896469c7f`;
 
 
@@ -31,7 +31,7 @@ function displayResults(weatherData) {
     const desc = weatherData.weather[0].description;
     const speed = weatherData.wind.speed;
     const temp = weatherData.main.temp;
-    const name = weatherData.name;
+    // const name = weatherData.name;
 
     let section = document.createElement("section");
     let image = document.createElement("img");
@@ -42,13 +42,10 @@ function displayResults(weatherData) {
     let result = 35.74 + 0.6215 * temp - 33.75 * (speed ** 0.16) + 0.4275 * temp * (speed ** 0.16);
     let description = desc[0].toUpperCase() + desc.slice(1);
 
-    if (temp >= 50 && speed >= 3) {
-    p2.innerHTML = `<strong>Wind Chill:</strong> ${result.toFixed(2)}%`;
+    if (temp <= 50 && speed > 3.0) {
+    p2.innerHTML = `<strong>Wind Chill:</strong> ${result.toFixed(2)}&deg;F`;
 
-    } else if (temp <= 50 && speed >= 3) {
-    p2.innerHTML = `<strong>Wind Chill:</strong> ${result.toFixed(2)}%`;
-
-    } else if (temp > 50 && speed < 3) {
+    } else if (temp > 50 && speed > 3.0) {
     p2.innerHTML = `<strong>Wind Chill:</strong> ${"N/A"}`;
     }
 

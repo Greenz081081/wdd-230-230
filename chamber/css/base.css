@@ -112,7 +112,7 @@ nav ul.open {
 
 .home-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, 6, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     grid-gap: 10px;
     padding: 5px;
     position: relative;
@@ -156,10 +156,16 @@ nav ul.open {
 #join-button a {
     color: white;
     text-decoration: none;
+    padding: 5px;
 }
 
 #join-button a:hover {
     text-decoration: underline;
+}
+
+#join-button p {
+    margin-top: 8px;
+    margin-left: 20px;
 }
 
 #join {
@@ -426,7 +432,7 @@ footer {
     display: flex;
     flex-direction:column;
     font-size: small;
-    background-color:#85F4FF;
+    background-color:#B8FFF9;
     text-align: center;
     list-style-type: none;
     margin-top: 10px;
