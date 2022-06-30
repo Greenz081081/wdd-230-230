@@ -32,9 +32,9 @@ function buildProphetCards(data) {
     img.setAttribute("loading", "lazy");
 
     card.append(h2);
-    card.append(h6)
+    card.append(h6);
     card.appendChild(p);
-    card.append(img)
+    card.append(img);
 
     cards.append(card);
   });

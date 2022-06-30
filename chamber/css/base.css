@@ -392,7 +392,7 @@ figcaption img {
     box-shadow: 0 0 10px #999;
 }
 
-#car-image img {
+#spotlight-1 img {
     width: 60px;
     height: 40px;
     margin-left: 100px;
@@ -411,7 +411,7 @@ figcaption img {
     text-align: center;
 }
 
-#trophy-image img {
+#spotlight-2 img {
     width: 30px;
     height: 30px;
     margin-left: -15px;

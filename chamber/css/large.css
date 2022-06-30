@@ -241,8 +241,34 @@
         padding: 10px;
     }
 
-    #spotlight-1 {
+    .spotlights section {
+        font-size: xx-small;
+        background-color: #EFFFFD;
+        grid-row: 1;
+        grid-column:1/4;
+        border: .5px solid;
+        border-color: #bbb;
+        padding: 10px;
+        margin-top:15px;
+        height: 200px;
+        box-shadow: 0 0 10px #999;
+    }
+
+    /* #spotlight-1 {
         font-size: small;
+        background-color: #EFFFFD;
+        grid-row: 1;
+        grid-column:1/4;
+        border: .5px solid;
+        border-color: #bbb;
+        padding: 10px;
+        margin-top:-15px;
+        height: 200px;
+        box-shadow: 0 0 10px #999;
+    } */
+
+    #spotlight-1 section {
+        font-size: xx-small;
         background-color: #EFFFFD;
         grid-row: 1;
         grid-column:1/4;
@@ -254,13 +280,13 @@
         box-shadow: 0 0 10px #999;
     }
 
-    #car-image img {
+    #spotlight-1 img {
         width: 60px;
         height: 60px;
         margin-left: 80px;
     }
 
-    #spotlight-2 {
+    /* #spotlight-2 {
         font-size: small;
         background-color: #EFFFFD;
         grid-row: 2;
@@ -271,19 +297,32 @@
         margin-top: 5px;
         height: 180px;
         box-shadow: 0 0 10px #999;
+    } */
+
+    #spotlight-2 section {
+        font-size: xx-small;
+        background-color: #EFFFFD;
+        grid-row: 1;
+        grid-column:1/4;
+        border: .5px solid;
+        border-color: #bbb;
+        padding: 10px;
+        margin-top:-15px;
+        height: 200px;
+        box-shadow: 0 0 10px #999;
     }
 
     #spotlight-2-link {
         margin-top: -10px;
     }
 
-    #trophy-image img {
+    #spotlight-2 img {
         width: 50px;
         height: 50px;
         margin-left: -5px;
     }
 
-    #spotlight-3 {
+    /* #spotlight-3 {
         font-size: small;
         background-color: #EFFFFD;
         display: block;
@@ -295,9 +334,22 @@
         margin-top: -8px;
         height: 220px;
         box-shadow: 0 0 10px #999;
+    } */
+
+    #spotlight-3 section {
+        font-size: xx-small;
+        background-color: #EFFFFD;
+        grid-row: 1;
+        grid-column:1/4;
+        border: .5px solid;
+        border-color: #bbb;
+        padding: 10px;
+        margin-top:-15px;
+        height: 200px;
+        box-shadow: 0 0 10px #999;
     }
 
-    #tree-image img {
+    #spotlight-3 img {
         width: 70px;
         height: 70px;
     }
