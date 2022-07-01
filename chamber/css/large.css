@@ -482,6 +482,12 @@
         border-top: 1px solid;
     }
 
+    #open-weather {
+        text-align: center;
+        grid-column: 2/6;
+        grid-row: 5;
+    }
+
     .map-link {
         grid-column: 1;
         grid-row: 4;
@@ -1258,12 +1264,12 @@
     }
 
     .contact-form-grid {
-        grid-row: 1/4;
+        grid-row: 2/5;
         grid-column: 1/3;
         background-color: #999;
         padding: 15px;
         margin: auto;
-        margin-top: 30px;
+        margin-top: 10px;
         margin-left: 80px;
         width: 120%;
         border-radius: 10px;
@@ -1315,9 +1321,9 @@
         border-style: ridge;
         border-radius: 5px;
         padding: 5px;
-        grid-row: 1/3;
+        grid-row: 2/4;
         grid-column: 4/6;
-        margin-top: 30px;
+        margin-top: 10px;
         margin-left: 100px;
         text-align: left;
     }
@@ -1340,4 +1346,18 @@
         margin-left: 24px;
         margin-top: -2px;
     }
+
+    .ask {
+        grid-row: 1;
+        grid-column: 1/3;
+        text-align: center;
+        font-size: xx-small;
+        margin-top: 30px;
+        margin-left: 80px;
+        width: 120%;
+        border: 1px solid;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
 }
