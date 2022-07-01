@@ -580,6 +580,22 @@ footer img {
     flex-direction: column;
 }
 
+.become-member {
+    width: auto;
+    background-color: white;
+    font-size: small;
+    border: 1px solid;
+    margin-top: 40px;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.become-member h1 {
+    color: black;
+}
+
 .form-grid {
     background-color: #999;
     padding: 15px;
@@ -587,6 +603,9 @@ footer img {
     width: auto;
     margin-top: 32px;
     border-radius: 10px;
+    border: 1px solid;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .form-grid label {
@@ -596,7 +615,7 @@ footer img {
 
 .form-grid input {
     width: 100%;
-    border: 0px;
+    border: 1px solid;
     border-radius: 5px;
     padding: 5px;
     margin-bottom: 10px;
@@ -611,6 +630,7 @@ footer img {
     color: green;
     margin-top: 20px;
     margin-left: 130px;
+    border-color: black;
 }
 
 .form-grid #submit:hover {
@@ -625,7 +645,7 @@ footer img {
 .form-grid textarea {
     display: flex;
     align-self: center;
-    border: 0px;
+    border: 1px solid;
     border-radius: 5px;
     width: 100%;
     margin-top: 5px;
@@ -669,30 +689,6 @@ footer img {
 
 #silver {
     padding: 10px;
-}
-
-#np-message {
-    display: none;
-    font-size: small;
-    color: rgb(47, 172, 255);
-}
-
-#bronze-message {
-    display: none;
-    font-size: small;
-    color: red;
-}
-
-#silver-message {
-    display: none;
-    font-size: small;
-    color: white;
-}
-
-#gold-message {
-    display: none;
-    font-size: small;
-    color: gold;
 }
 
 #check-2 img {
@@ -924,13 +920,15 @@ footer img {
 }
 
 .contact-form-grid {
-    background-color: #999;
+    background-color: grey;
     padding: 15px;
     margin: auto;
     margin-top: 30px;
-    margin-left: 0px;
-    width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: auto;
     border-radius: 10px;
+    border: 1px solid;
 }
 
 .contact-form-grid label {
@@ -940,7 +938,7 @@ footer img {
 
 .contact-form-grid input {
     width: 100%;
-    border: 0px;
+    border: 1px solid;
     border-radius: 5px;
     padding: 5px;
     margin-bottom: 10px;
@@ -968,7 +966,7 @@ footer img {
 .contact-form-grid textarea {
     display: flex;
     align-self: center;
-    border: 0px;
+    border: 1px solid;
     border-radius: 5px;
     width: 100%;
     margin-top: 5px;
@@ -980,8 +978,9 @@ footer img {
     border-radius: 5px;
     padding: 5px;
     margin-top: 30px;
-    margin-left: 0px;
-    width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: auto;
     text-align: center;
 }
 
@@ -1001,4 +1000,16 @@ footer img {
 .contact h1 {
     margin-left: 4px;
     margin-top: -2px;
+}
+
+.ask {
+    text-align: center;
+    font-size: xx-small;
+    margin-top: 40px;
+    width: auto;
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
