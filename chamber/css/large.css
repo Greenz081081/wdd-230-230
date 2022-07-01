@@ -170,7 +170,7 @@
         display: block;
         position: absolute;
         top: 470px;
-        left: 20px;
+        left: 15px;
         border: 1px solid;
         border-radius: 15px;
         color: white;
@@ -241,20 +241,39 @@
         padding: 10px;
     }
 
-    .spotlights section {
+    .spotlights p {
+        text-shadow: 0 0 1px;
+    }
+
+    /* .spotlights section {
         font-size: xx-small;
         background-color: #EFFFFD;
         grid-row: 1;
-        grid-column:1/4;
+        width: 230px;
         border: .5px solid;
         border-color: #bbb;
         padding: 10px;
-        margin-top:15px;
-        height: 200px;
+        margin-top:-22px;
+        height: 205px;
         box-shadow: 0 0 10px #999;
+        margin-bottom: 28px;
     }
 
-    /* #spotlight-1 {
+    .spotlights 
+
+    .spotlights img {
+        margin-left: 2px;
+    }
+
+    .spotlights h2 {
+        text-align: center;
+    } */
+
+    /* .spotlights .spotlight-1 {
+        margin-top: -10px;
+    } */
+
+    .spotlight-1 {
         font-size: small;
         background-color: #EFFFFD;
         grid-row: 1;
@@ -262,31 +281,40 @@
         border: .5px solid;
         border-color: #bbb;
         padding: 10px;
-        margin-top:-15px;
+        margin-top: -15px;
+        height: 200px;
+        box-shadow: 0 0 10px #999;
+    }
+
+    /* .spotlight-1 section {
+        font-size: xx-small;
+        background-color: #EFFFFD;
+        grid-row: 1;
+        width: 230px;
+        border: .5px solid;
+        border-color: #bbb;
+        padding: 10px;
+        margin-top:-30px;
         height: 200px;
         box-shadow: 0 0 10px #999;
     } */
 
-    #spotlight-1 section {
-        font-size: xx-small;
-        background-color: #EFFFFD;
-        grid-row: 1;
-        grid-column:1/4;
-        border: .5px solid;
-        border-color: #bbb;
-        padding: 10px;
-        margin-top:-15px;
-        height: 200px;
-        box-shadow: 0 0 10px #999;
-    }
+    /* .spotlight-1 {
+        margin-top: -30px;
+    } */
 
-    #spotlight-1 img {
+    .spotlight-1 img {
         width: 60px;
         height: 60px;
-        margin-left: 80px;
+        margin-left: 70px;
+        margin-top: 10px;
     }
 
-    /* #spotlight-2 {
+    .spotlight-1 h2 {
+        text-align: center;
+    }
+
+    .spotlight-2 {
         font-size: small;
         background-color: #EFFFFD;
         grid-row: 2;
@@ -294,35 +322,50 @@
         border: .5px solid;
         border-color: #bbb;
         padding: 10px;
-        margin-top: 5px;
-        height: 180px;
+        margin-top: 2px;
+        height: 185px;
         box-shadow: 0 0 10px #999;
-    } */
+    }
 
-    #spotlight-2 section {
+    .spotlight-2 img {
+        width: 60px;
+        height: 60px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+
+    .spotlight-2 h2 {
+        text-align: center;
+    }
+
+    /* .spotlight-2 section {
         font-size: xx-small;
         background-color: #EFFFFD;
         grid-row: 1;
-        grid-column:1/4;
+        width: 230px;
         border: .5px solid;
         border-color: #bbb;
         padding: 10px;
-        margin-top:-15px;
         height: 200px;
         box-shadow: 0 0 10px #999;
     }
 
-    #spotlight-2-link {
-        margin-top: -10px;
+
+    .spotlight-2 h2 {
+        text-align: center;
     }
 
-    #spotlight-2 img {
+    .spotlight-2 img {
         width: 50px;
         height: 50px;
         margin-left: -5px;
-    }
+    } */
 
-    /* #spotlight-3 {
+        /* .spotlight-2-link {
+        margin-top: -10px;
+    } */
+
+    .spotlight-3 {
         font-size: small;
         background-color: #EFFFFD;
         display: block;
@@ -331,33 +374,47 @@
         border: .5px solid;
         border-color: #bbb;
         padding: 10px;
-        margin-top: -8px;
+        margin-top: -7px;
         height: 220px;
         box-shadow: 0 0 10px #999;
-    } */
+    }
 
-    #spotlight-3 section {
+    .spotlight-3 img {
+        width: 60px;
+        height: 60px;
+        margin-left: 70px;
+        margin-top: 10px;
+    }
+
+    .spotlight-3 h2 {
+        text-align: center;
+    }
+
+    /* .spotlight-3 section {
         font-size: xx-small;
         background-color: #EFFFFD;
         grid-row: 1;
-        grid-column:1/4;
+        width: 230px;
         border: .5px solid;
         border-color: #bbb;
         padding: 10px;
-        margin-top:-15px;
         height: 200px;
         box-shadow: 0 0 10px #999;
     }
 
-    #spotlight-3 img {
-        width: 70px;
-        height: 70px;
+    .spotlight-3 h2 {
+        text-align: center;
     }
 
-    #spotlight-3-link {
+    .spotlight-3 img {
+        width: 70px;
+        height: 70px;
+    } */
+
+    /* #spotlight-3-link {
         border-bottom: none;
         color: blueviolet;
-    }
+    } */
 
     .event {
         grid-column: 1;

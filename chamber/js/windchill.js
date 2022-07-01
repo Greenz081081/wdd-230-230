@@ -45,7 +45,7 @@ function displayResults(weatherData) {
     if (temp <= 50 && speed > 3.0) {
     p2.innerHTML = `<strong>Wind Chill:</strong> ${result.toFixed(2)}&deg;F`;
 
-    } else if (temp > 50 && speed > 3.0) {
+    } else if (temp > 50 && speed < 3.0) {
     p2.innerHTML = `<strong>Wind Chill:</strong> ${"N/A"}`;
     }
 

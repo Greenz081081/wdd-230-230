@@ -365,7 +365,7 @@ figcaption img {
     display: none;
 }
 
-#spotlight-3 {
+.spotlight-3 {
     display: none;
 }
 
@@ -382,7 +382,11 @@ figcaption img {
     padding: 10px;
 }
 
-#spotlight-1 {
+.spotlights p {
+    text-shadow: 0 0 1px;
+}
+
+.spotlight-1 {
     grid-row: 1/4;
     grid-column:1/5;
     border: .5px solid;
@@ -392,13 +396,18 @@ figcaption img {
     box-shadow: 0 0 10px #999;
 }
 
-#spotlight-1 img {
+.spotlight-1 img {
     width: 60px;
-    height: 40px;
+    height: 60px;
     margin-left: 100px;
+    margin-top: 10px;
 }
 
-#spotlight-2 {
+.spotlight-1 h2 {
+    text-align: center;
+}
+
+.spotlight-2 {
     font-size: smaller;
     grid-row: 4/7;
     grid-column: 1/5;
@@ -411,13 +420,18 @@ figcaption img {
     text-align: center;
 }
 
-#spotlight-2 img {
-    width: 30px;
-    height: 30px;
-    margin-left: -15px;
+.spotlight-2 img {
+    width: 60px;
+    height: 60px;
+    margin-left: -5px;
+    margin-top: 10px;
 }
 
-#spotlight-2-highlight {
+.spotlight-2 h2 {
+    text-align: center;
+}
+
+/* #spotlight-2-highlight {
     margin-left: 5px;
     text-align: center;
 }
@@ -425,7 +439,7 @@ figcaption img {
 #spotlight-2-link {
     border-bottom: none;
     color: blueviolet;
-}
+} */
 
 
 footer {
