@@ -18,9 +18,16 @@
     }
 
     .site-logo h4 {
-        margin-left: 90px;
+        margin-left: 40px;
         margin-top: -50px;
         font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .site-logo img {
+        width: 80px;
+        margin-top: -10px;
+        margin-left: -55px;
     }
 
     .header-nav {
@@ -29,17 +36,15 @@
     }
 
 
-    .facebook img {
-        border-radius: 200px;
-        width: 30px;
-        padding: 10px;
-        margin-left: 40px;
+    #facebook img {
+        width: 40px;
+        margin-top: -10px;
     }
-
-    .whatsapp img {
-        padding: 10px;
-        border-radius: 200px;
-        width: 30px;
+    
+    #whatsapp img {
+        width: 40px;
+        margin-top: -12px;
+        margin-left: 10px;
     }
 
     .date {
@@ -47,7 +52,7 @@
         position: absolute; 
         padding: 10px;
         left:0px;
-        top: 180px;
+        top: 150px;
         width: 100%;
         background-color: #18978F;
         color: white;
@@ -72,8 +77,9 @@
 
     nav ul#primaryNav {
         display: flex;
-        justify-content: center;
-        margin-right: 10px;
+        width: 100%;
+        align-self: center;
+        margin-right: 100px;
     }
 
     nav ul li a {
@@ -93,6 +99,10 @@
         padding: 0;
         margin: 0;
     }
+
+    #primary-nav {
+        margin-left: -100px;
+    }
     
     nav ul li.active a {
         color: red;
@@ -101,9 +111,9 @@
     nav ul li a:hover {
         text-decoration:none;
     }
-    .site-logo img {
-        width: 80px;
-        margin-top: -10px;
+
+    .header-nav {
+        margin-top: 10px;
     }
 
     main {
