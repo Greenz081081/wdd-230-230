@@ -100,7 +100,6 @@ nav ul li a {
 }
 
 nav ul li {
-    /* border-right: 2px solid rgba(0,0,0,0.5); */
     border-right: 5px solid #18978F;
     border-radius: 10px;
 }
@@ -223,18 +222,6 @@ nav ul.open {
     text-decoration: underline;
 }
 
-.spotlights h6 {
-    text-align: center;
-    color: #06113C;
-    text-shadow: 0 0 1px;
-    margin-top: 10px;
-}
-
-.spotlights img {
-    height: 80px;
-    width: 80px;
-    margin-left: 70px;
-}
 
 main h5 {
     text-align: center;
@@ -298,10 +285,6 @@ main p {
     padding: 5px;
 }
 
-.spotlights p {
-    text-align: center;
-    border-bottom: 1px solid;
-}
 
 #contact {
     border-bottom: none;
@@ -319,16 +302,11 @@ main p {
     background-color: #EFFFFD;
     grid-column: 1/7;
     height: 200px;
-    width: 200px;
-    /* margin-left: 50px; */
-    margin: auto;
-    /* margin-top: 5px; */
     padding: 5px;
     box-shadow: 0 0 10px #999;
     font-size: 10px;
+    text-align: center;
 }
-
-
 
 .weather h2 {
     text-align: center;
@@ -340,12 +318,12 @@ main p {
 figcaption {
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
 figcaption p {
     font-size: small;
     margin-top: 10px;
-    text-align: center;
 }
 
 figcaption h6 {
@@ -355,27 +333,28 @@ figcaption h6 {
     padding: 5px;
 }
 
-#current-temp {
-    margin-left: 70px;
-    font-size: large;
-}
-
 figcaption img {
     margin-top: -15px;
-    margin-left: 55px;
     padding: 5px;
 }
 
-/* #currentweather {
-    border-bottom: 1px solid;
+.spotlights h6 {
     text-align: center;
+    color: #06113C;
+    text-shadow: 0 0 1px;
+    margin-top: 10px;
 }
 
-#weather-image img {
-    width: 80px;
+.spotlights img {
     height: 80px;
-    margin-left: 60px;
-} */
+    width: 80px;
+    margin-left: 70px;
+}
+
+.spotlights p {
+    text-align: center;
+    border-bottom: 1px solid;
+}
 
 #join {
     display: none;
@@ -411,12 +390,13 @@ figcaption img {
     padding: 10px;
     margin-top:-1px;
     box-shadow: 0 0 10px #999;
+    text-align: center;
 }
 
 .spotlight-1 img {
     width: 60px;
     height: 60px;
-    margin-left: 100px;
+    margin-left: -1px;
     margin-top: 10px;
 }
 
@@ -426,7 +406,6 @@ figcaption img {
 }
 
 .spotlight-2 {
-    font-size: smaller;
     grid-row: 4/7;
     grid-column: 1/5;
     border: .5px solid;
@@ -449,17 +428,6 @@ figcaption img {
     text-align: center;
     border-bottom: 1px solid;
 }
-
-/* #spotlight-2-highlight {
-    margin-left: 5px;
-    text-align: center;
-}
-
-#spotlight-2-link {
-    border-bottom: none;
-    color: blueviolet;
-} */
-
 
 footer {
     display: flex;

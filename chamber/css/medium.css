@@ -78,6 +78,7 @@
         padding: 0;
         margin: 0;
         margin-right: -120px;
+        margin-top: 8px;
     }
     
     nav button {
@@ -99,7 +100,7 @@
     }
     
     /* nav ul li {
-        border-top: 1px solid rgba(0,0,0,0.5);
+        margin-top: 10px;
     } */
     
     nav ul li.active a {
@@ -111,9 +112,9 @@
     }
     
     nav ul {
-        display: none;
-        
+        display: none;  
     }
+
     nav ul.open {
         display: block;
     }

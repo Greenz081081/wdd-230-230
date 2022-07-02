@@ -404,32 +404,6 @@
         border-bottom: 1px solid gray;
     }
 
-    /* .spotlight-3 section {
-        font-size: xx-small;
-        background-color: #EFFFFD;
-        grid-row: 1;
-        width: 230px;
-        border: .5px solid;
-        border-color: #bbb;
-        padding: 10px;
-        height: 200px;
-        box-shadow: 0 0 10px #999;
-    }
-
-    .spotlight-3 h2 {
-        text-align: center;
-    }
-
-    .spotlight-3 img {
-        width: 70px;
-        height: 70px;
-    } */
-
-    /* #spotlight-3-link {
-        border-bottom: none;
-        color: blueviolet;
-    } */
-
     .event {
         grid-column: 1;
         grid-row: 1;
@@ -439,8 +413,6 @@
     }
 
     .weather {
-        display: flex;
-        flex-direction: column;
         grid-column: 1/2;
         grid-row: 2;
         height: 200px;
@@ -448,6 +420,7 @@
         padding: 1px;
         margin-left: 0px;
         font-size: x-small;
+        text-align: center;
     }
 
     .weather h2 {
@@ -457,12 +430,12 @@
     figcaption {
         display: flex;
         flex-direction: column;
+        text-align: center;
     }
 
     figcaption p {
         font-size: small;
         margin-top: 10px;
-        text-align: center;
     }
 
     figcaption h6 {
@@ -471,15 +444,14 @@
         padding: 5px;
     }
 
-    #current-temp {
-        margin-left: 95px;
-        font-size: large;
-    }
-
     figcaption img {
         margin-top: -15px;
-        margin-left: 80px;
         padding: 5px;
+        margin-left: -10px;
+    }
+
+    #current-temp {
+        margin-left: -10px;
     }
 
     #submit {
