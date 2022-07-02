@@ -42,7 +42,7 @@ function displayResults(weatherData) {
     let result = 35.74 + 0.6215 * temp - 33.75 * (speed ** 0.16) + 0.4275 * temp * (speed ** 0.16);
     let description = desc[0].toUpperCase() + desc.slice(1);
 
-    if (temp <= 50 && speed > 3.0) {
+    if (temp >= 50 && speed > 3.0) {
     p2.innerHTML = `<strong>Wind Chill:</strong> ${result.toFixed(2)}&deg;F`;
 
     } else if (temp > 50 && speed < 3.0) {

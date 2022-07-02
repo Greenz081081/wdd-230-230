@@ -243,6 +243,7 @@
 
     .spotlights p {
         text-shadow: 0 0 1px;
+        border-bottom: none;
     }
 
     /* .spotlights section {
@@ -312,6 +313,7 @@
 
     .spotlight-1 h2 {
         text-align: center;
+        border-bottom: 1px solid gray;
     }
 
     .spotlight-2 {
@@ -336,6 +338,7 @@
 
     .spotlight-2 h2 {
         text-align: center;
+        border-bottom: 1px solid gray;
     }
 
     /* .spotlight-2 section {
@@ -388,6 +391,7 @@
 
     .spotlight-3 h2 {
         text-align: center;
+        border-bottom: 1px solid gray;
     }
 
     /* .spotlight-3 section {
@@ -425,6 +429,8 @@
     }
 
     .weather {
+        display: flex;
+        flex-direction: column;
         grid-column: 1/2;
         grid-row: 2;
         height: 200px;
@@ -438,26 +444,31 @@
         margin-top: 5px;
     }
 
+    figcaption {
+        display: flex;
+        flex-direction: column;
+    }
+
     figcaption p {
         font-size: small;
         margin-top: 10px;
+        text-align: center;
     }
 
     figcaption h6 {
         font-size: small;
-        border-bottom: 1px solid;
         text-shadow: 0 0 5px;
         padding: 5px;
     }
 
     #current-temp {
-        margin-top: 40px;
+        margin-left: 95px;
         font-size: large;
     }
 
     figcaption img {
         margin-top: -15px;
-        margin-left: 40px;
+        margin-left: 80px;
         padding: 5px;
     }
 
@@ -500,9 +511,10 @@
 
     .footer-logo img {
         border: 1px solid #ccc;
-        padding: 10px;
+        padding: 3px;
         box-shadow: 5px 5px 5px #999;
         border-radius: 200px;
+        width: 80px;
     }
 
     .footer-logo {
@@ -515,7 +527,7 @@
         font-size: 10px;
         grid-row: 1;
         grid-column: 3;
-        margin-top: 150px;
+        margin-top: 180px;
         margin-left: -80px;
     }
 
@@ -1153,7 +1165,7 @@
         -webkit-transform: scale(0.5); 
         transform: scale(1.1); 
     }
-    
+
     .cards {
         display: flex;
         flex-direction: column;

@@ -222,6 +222,17 @@
     figcaption p {
         font-size: small;
     }
+
+    #current-temp {
+        margin-left: 95px;
+        font-size: large;
+    }
+    
+    figcaption img {
+        margin-top: -15px;
+        margin-left: 85px;
+        padding: 5px;
+    }
     
     footer {
         display: flex;

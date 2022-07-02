@@ -326,10 +326,15 @@ main p {
 }
 
 
+figcaption {
+    display: flex;
+    flex-direction: column;
+}
+
 figcaption p {
     font-size: small;
-    /* margin-top: -18px; */
-    margin-left: 5px;
+    margin-top: 10px;
+    text-align: center;
 }
 
 figcaption h6 {
@@ -340,17 +345,17 @@ figcaption h6 {
 }
 
 #current-temp {
-    margin-top: 2px;
+    margin-left: 70px;
     font-size: large;
 }
 
 figcaption img {
-    /* margin-top: -85px; */
-    margin-left: 40px;
+    margin-top: -15px;
+    margin-left: 55px;
     padding: 5px;
 }
 
-#currentweather {
+/* #currentweather {
     border-bottom: 1px solid;
     text-align: center;
 }
@@ -359,7 +364,7 @@ figcaption img {
     width: 80px;
     height: 80px;
     margin-left: 60px;
-}
+} */
 
 #join {
     display: none;
@@ -384,6 +389,7 @@ figcaption img {
 
 .spotlights p {
     text-shadow: 0 0 1px;
+    border-bottom: none;
 }
 
 .spotlight-1 {
@@ -405,6 +411,7 @@ figcaption img {
 
 .spotlight-1 h2 {
     text-align: center;
+    border-bottom: 1px solid;
 }
 
 .spotlight-2 {
@@ -429,6 +436,7 @@ figcaption img {
 
 .spotlight-2 h2 {
     text-align: center;
+    border-bottom: 1px solid;
 }
 
 /* #spotlight-2-highlight {
@@ -472,9 +480,10 @@ footer img {
 
 .footer-logo img {
     border: 1px solid #ccc;
-    padding: 10px;
+    padding: 3px;
     box-shadow: 5px 5px 5px #999;
     border-radius: 200px;
+
 }
 
 
@@ -491,7 +500,8 @@ footer img {
     width: 100%;
     height: 200px;
     padding: 5px;
-    margin-left: -5px;
+    margin-left: -1px;
+    /* margin-right: 15px; */
     box-shadow: 0 0 10px #999;
     margin-top: 20px;
 }
@@ -513,25 +523,50 @@ footer img {
     box-shadow: none;
 }
 
+.airport-grid {
+    padding: 5px;
+}
+
+.longbeach-grid {
+    padding: 5px;
+}
+
+.monument-grid {
+    padding: 5px;
+}
+
+.stadium-grid {
+    padding: 5px;
+}
+
+.e-library-grid {
+    padding: 5px;
+}
+
 #airport {
     margin-top: 15px;
-    margin-left: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 #longbeach {
-    margin-left: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 #monument {
-    margin-left: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 #stadium {
-    margin-left: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
-#library {
-    margin-left: 5px;
+#e-library {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 #longbeach-image img {
@@ -558,7 +593,8 @@ footer img {
 #library-image img {
     width: 100px;
     height: 100px;
-    margin-left: 5px;
+    /* margin-left: 10px;
+    margin-right: 10px; */
     box-shadow: none;
 }
 
@@ -780,7 +816,9 @@ footer img {
     border-radius: 5px;
     margin: auto;
     margin-left: -3px;
+    margin-top: 15px;
 }
+
 
 .grid .cards section {
     transition: none;
