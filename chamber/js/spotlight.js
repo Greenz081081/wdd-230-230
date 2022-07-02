@@ -45,7 +45,7 @@ function buildKodeHauzCompanyCard(data) {
     card.append(h2);
     card.append(h6);
     card.appendChild(p);
-    card.append(p2);
+    card.append(img);
 
 
     firstSpotlight.append(card);
@@ -81,7 +81,7 @@ function buildDelonCompanyCard(data) {
     card.append(h2);
     card.append(h6);
     card.appendChild(p);
-    card.append(p2);
+    card.append(img);
 
 
     secondSpotlight.append(card);
@@ -118,7 +118,7 @@ function buildDigificsCompanyCard(data) {
     card.append(h2);
     card.append(h6);
     card.appendChild(p);
-    card.append(p2);
+    card.append(img);
 
 
     thirdSpotlight.append(card);
