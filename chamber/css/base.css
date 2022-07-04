@@ -164,7 +164,7 @@ nav ul.open {
     border: 1px solid;
     border-radius: 15px;
     background-color:#18978F;
-    width: 150px;
+    width: 180px;
     height: 45px;
     font-size: 15px;
 }
@@ -181,7 +181,7 @@ nav ul.open {
 
 #join-button p {
     margin-top: 8px;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 #join {
