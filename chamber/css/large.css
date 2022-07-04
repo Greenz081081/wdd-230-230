@@ -916,6 +916,7 @@
         border-radius: 10px;
         box-shadow: 0 0 30px #999;
         border-top: 1px solid;
+        border-right: 5px solid grey;
     }
 
 
@@ -936,6 +937,7 @@
         margin-left: 10px;
         border-radius: 10px;
         box-shadow: 0 0 30px #999;
+        border-right: 5px solid grey;
     }
 
     #bronze-header {
@@ -955,6 +957,7 @@
         margin-left: 10px;
         border-radius: 10px;
         box-shadow: 0 0 30px #999;
+        border-right: 5px solid grey;
     }
 
     #silver-header {
@@ -977,6 +980,7 @@
         box-shadow: 0 0 30px #999;
         border-bottom: 1px solid;
         padding: 10px;
+        border-right: 5px solid grey;
     }
 
     #gold-header {
