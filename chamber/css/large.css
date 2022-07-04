@@ -11,10 +11,25 @@
 
     .invite {
         position: absolute;
-        margin-top: -50px;
-        margin-left: 350px;
+        margin-top: -65px;
+        margin-left: -80px;
         font-size: 18px;
-        
+        border: 1px solid ;
+        padding: 10px;
+        width: 100%;
+        background-color: #18978F;
+        border-color: white;
+        color: white;
+    }
+
+    .invite {
+        transition: transform .2s;
+    }
+      
+    .invite:hover {
+        -ms-transform: scale(0.5);
+        -webkit-transform: scale(0.5);
+        transform: scale(1.1); 
     }
 
     .site-logo h4 {
