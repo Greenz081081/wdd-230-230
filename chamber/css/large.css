@@ -171,7 +171,7 @@
         border: 1px solid;
         border-radius: 15px;
         background-color: #18978F;
-        width: 150px;
+        width: 230px;
         height: 45px;
         font-size: 15px;
     }
@@ -184,7 +184,7 @@
 
     #join-button p {
         margin-top: 8px;
-        margin-left: 5px;
+        margin-left: 50px;
     }
 
     #join-button a:hover {
@@ -234,9 +234,13 @@
         grid-column: 2/6;
         grid-row: 3;
         height: 188px;
-        padding: 5px;
+        padding: 10px;
         margin-top: 12px;
         margin-left: 2px;
+    }
+
+    .release p {
+        margin-top: 5px;
     }
 
     #join {
