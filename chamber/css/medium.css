@@ -31,26 +31,17 @@
         margin-bottom: -10px;
     }
 
-    /* .invite {
-        font-size: xx-small;
-        text-align: center;
-        position: absolute;
-        margin-top: -5px;
-        margin-left: 2px;  
-    } */
-
     .invite {
         position: absolute;
         margin-top: -60px;
         margin-left: -2px;
         font-size: small;
-        border: 1px solid ;
         padding: 12px;
         width: 100%;
-        background-color: #18978F;
-        border-color: white;
-        color: white;
         text-align: center;
+        color: white;
+        border: 1px solid white;
+        background-color: #18978F;
     }
 
     .invite {
@@ -650,6 +641,36 @@
         -ms-transform: scale(0.5);
         -webkit-transform: scale(0.5);
         transform: scale(1.1); 
+    }
+
+    #thank-you-image-1 {
+        background-color: white;
+        margin-left: 5px;
+        margin-right: 5px;
+        padding: 10px;
+        box-shadow: 0 0 10px #999;
+        text-align: center;
+    }
+    
+    #thank-you-image-1 img {
+        width: 100px;
+        height: 100px;
+        margin-right: 70px;
+    }
+
+    #thank-you-image-2 {
+        background-color: white;
+        margin-right: 5px;
+        margin-left: 5px;
+        padding: 10px;
+        box-shadow: 0 0 10px #999;
+        text-align: center;
+    }
+    
+    #thank-you-image-2 img {
+        width: 100px;
+        height: 100px;  
+        margin-right: 70px;
     }
 
     .grid .cards{

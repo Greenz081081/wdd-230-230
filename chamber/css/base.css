@@ -35,13 +35,11 @@ header img {
     text-align: center;
     position: absolute;
     margin-top: -50px;
-    /* margin-left: 2px;   */
     padding: 8px;
-    border: 1px solid;
-    border-color: white;
-    color: white;
-    background-color: #18978F;
     width: 100%;
+    color: white;
+    border: 1px solid white;
+    background-color: #18978F;
 }
 
 .site-logo img {
@@ -764,12 +762,13 @@ footer img {
     margin-right: 5px;
     padding: 10px;
     box-shadow: 0 0 10px #999;
+    text-align: center;
 }
 
 #thank-you-image-1 img {
     width: 100px;
     height: 100px;
-    margin-left: 90px;
+    /* margin-left: 90px; */
 }
 
 #thank-you-image-2 {
@@ -778,12 +777,12 @@ footer img {
     margin-left: 5px;
     padding: 10px;
     box-shadow: 0 0 10px #999;
+    text-align: center;
 }
 
 #thank-you-image-2 img {
     width: 100px;
     height: 100px;
-    margin-left: 90px;
 }
 
 
