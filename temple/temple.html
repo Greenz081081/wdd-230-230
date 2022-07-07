@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/shortcut_icon.png">
+    <title>Temple Inn</title>
+    <meta name="deacription" 
+        content="Home page for the Temple Inn site. A home page 
+        known as the index.html which give's the introductory background 
+        of the site.">
+    <link rel="stylesheet" href="Temple_In/css/base.css">
+    <link rel="stylesheet" href="Temple_In/css/medium.css">
+    <link rel="stylesheet" href="Temple_In/css/large.css">
+    <link rel="stylesheet" href="Temple_In/css/normalize.css">
+</head>
+<body>
+    <header>
+        <div class="site-logo">
+            <img src="Temple_In/images/Site_logo.png" alt="logo img">
+            <h4>L.D.S Temple Inn</h4>
+        </div>
+        <!-- <div class="invite"><span id="invitation"></span></div> -->
+            <nav class="header-nav">
+                <!-- <a id="whatsapp" href="https://www.whatsapp.com/"><img src="images/whatsapp.png" alt="WhatsApp Icon"></a>
+                <a id="facebook" href="https://www.whatsapp.com/"><img src="images/facebook_icon.png" alt="Facebook Icon"></a> -->
+                <button id="hamburgerButton">&#9776;</button>
+                <ul id="primaryNav">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="Temple_In/temple.html">Temple</a></li>
+                    <li><a href="Temple_In/reservation.html">Reservation</a></li>
+                    <li><a href="Temple_In/services.html">Services</a></li>
+                </ul>
+                <!-- <div class="date"></div> -->
+            </nav>
+    </header>
+
+    <main>
+        <div class="home-grid">
+            <div class="hero-image">
+                <img src="Temple_In/images/Aba_large.png" alt="temple img">
+                <div id="call-to-action">
+                    <h2>Make a Reservation</h2>
+                </div>
+            </div>
+            <div class="hero-paragraph">
+                <p id="paragraph-1">The Aba Nigeria Temple was the first temple built in Nigeria
+                    and the third built in Africa, following the Johannesburg South
+                    Africa Temple (1985) and Accra Ghana Temple (2004).
+                    On 7 August 2005, President Hinckley returned to Nigeria to 
+                    dedicate the Aba temple on a warm, humid day where 7,415 gathered 
+                    from throughout Nigeria. During that weekend, activities related 
+                    to the dedication carried the theme: “A Day of Rejoicing,” a fitting 
+                    description for members who seemed hardly able to contain their joy.
+                </p>
+                <p id="paragraph-2"> In the dedicatory prayer, President Hinckley called the temple a 
+                    “thing of beauty,” which would help heal the land.
+                    President Gordon B. Hinckley dedicated the Aba Nigeria Temple
+                    during a worldwide tour that included visits to Anchorage, Alaska;
+                    Vladivostok, Russia; Seoul, South Korea; Taipei, Taiwan; Hong Kong, 
+                    China; New Delhi, India; Nairobi, Kenya; and finally Aba, Nigeria. 
+                </p>
+            </div>
+            <div class="images">
+                <div class="temple-image-1">
+                    <img src="Temple_In/images/aba-temple-1.jpg" alt="temple img">
+                </div>
+                <div class="temple-image-2">
+                    <img src="Temple_In/images/aba-temple-2.jpg" alt="temple img">
+                </div>
+                <div class="temple-image-3">
+                    <img src="Temple_In/images/aba-temple-4.jpg" alt="temple img">
+                </div>
+            </div>
+            <div class="weather-forcast">
+                <figure>
+                <p><span id="current-temperature"></span>&deg;F</p>
+                </figure>
+                <div class="sub-forcast">
+                    <h2>Weather</h2>
+                    <figure>
+                    <p><span id="current-temp"></span>&deg;F</p>
+                    <figcaption></figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="temple-activities">
+                <div class="activities-1">
+                    <img src="Temple_In/images/temple_1.jpg" alt="temple img">
+                </div>
+                <div class="activities-2">
+                    <img src="Temple_In/images/temple_2.jpg" alt="temple img">
+                </div>
+                <div class="activities-3">
+                    <img src="Temple_In/images/temple_3.jpg" alt="temple img">
+                </div>
+            </div>
+            <div class="contact-list">
+                <h1><em>CONTACTS LIST</em></h1>
+
+                <div class="akwa-ibom">
+                <h3><strong>Akwa Ibom</strong></h3>
+                <P>Eket Contact: <span id="phone">+234-816&nbsp;&nbsp;6578&nbsp;&nbsp;900</span></P>
+                <P>Akpaden Contact: <span id="phone">+234-816&nbsp;&nbsp;6578&nbsp;&nbsp;900</span></P>
+                </div>
+
+                <div class="lagos">
+                <h3><strong>Lagos State</strong></h3>
+                <P>Ikeja Contact: <span id="phone">+234-708&nbsp;&nbsp;8654&nbsp;&nbsp;310</span></P>
+                <P>Lekki Contact: <span id="phone">+234-708&nbsp;&nbsp;8654&nbsp;&nbsp;310</span></P>
+                </div>
+
+                <div class="calabar">
+                <h3><strong>Calabar</strong></h3>
+                <P>Mary Slessor Contact: <span id="phone">+234-808&nbsp;&nbsp;0600&nbsp;&nbsp;007</span></P>
+                <P>Unical Contact: <span id="phone">+234-808&nbsp;&nbsp;0600&nbsp;&nbsp;007</span></P>
+                </div>
+
+                <div class="abuja">
+                <h3><strong>Abuja</strong></h3>
+                <P>Maitama Contact: <span id="phone">+234-900&nbsp;&nbsp;6002&nbsp;&nbsp;001</span></P>
+                <P>Lokogoma Contact: <span id="phone">+234-900&nbsp;&nbsp;6002&nbsp;&nbsp;001</span></P>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <!-- <div class="footer-logo">
+        </div>
+        <section class="footer-heading">
+            <h2>EChamber Of Commerce</h2>
+            <p>Eket, Akwa Ibom State, Nigeria</p>
+        </section>
+        <div class="info">
+            <p>Mail: Blessededet94@gmail.com</p>
+            <p>Phone: +234 - 8108139886</p>
+            <p class="map-link"><a href="https://www.google.com/maps/place/Nigeria/@9.0338725,8.677457,6z/data=!3m1!4b1!4m5!3m4!1s0x104e0baf7da48d0d:0x99a8fe4168c50bc8!8m2!3d9.081999!4d8.675277">
+                <em>Location Map 🎈</em></a>
+            </p>
+        </div> -->
+        <p class="copyright">
+            &copy; 2022 Echamberofcommerce| Emediong H. Edet | WDD 230 Project | Last Modification: <span id="currentdate"></span>
+            <li><a href="Temple_In/data.json">Services</a></li>
+        </p>
+        <P id="open-weather">Weather Provided By: <a href="https://openweathermap.org/">OpenWeather</a></P>
+        <p class="number-of-visits"><span class="label">Number of Visits: </span><span class="visits"></span></p>
+    </footer>
+
+    <script src="Temple_in/js/weather.js"></script>
+    <script src="Temple_in/js/toggle.js"></script>
+    <script></script>
+    <script></script>
+    <script></script>
+</body>
+</html>
