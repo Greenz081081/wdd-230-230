@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/shortcut_icon.png">
+    <title>Temple Inn</title>
+    <meta name="deacription" 
+        content="Home page for the Temple Inn site. A home page 
+        known as the index.html which give's the introductory background 
+        of the site.">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/normalize.css">
+</head>
+<body>
+    <header>
+        <div class="site-logo">
+            <img src="images/Site_logo.png" alt="logo img">
+            <h4>L.D.S Temple Inn</h4>
+        </div>
+        <!-- <div class="invite"><span id="invitation"></span></div> -->
+            <nav class="header-nav">
+                <!-- <a id="whatsapp" href="https://www.whatsapp.com/"><img src="images/whatsapp.png" alt="WhatsApp Icon"></a>
+                <a id="facebook" href="https://www.whatsapp.com/"><img src="images/facebook_icon.png" alt="Facebook Icon"></a> -->
+                <button id="hamburgerButton">&#9776;</button>
+                <ul id="primaryNav">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="temple.html">Temple</a></li>
+                    <li><a href="reservation.html">Reservation</a></li>
+                    <li><a href="services.html">Services</a></li>
+                </ul>
+                <!-- <div class="date"></div> -->
+            </nav>
+    </header>
+
+    <main>
+        <div class="home-grid">
+            <div class="container-1">
+                <form action="">
+                  <fieldset>
+                    <legend>Personal Information</legend>
+                      <div class="Personal-information">
+                        <label class="top" for="fname">Full Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                        <label class="top" for="country">Home State or Country</label>
+                        <select id="country" name="country">
+                          <option value="Afghanistan">Afghanistan</option>
+                          <option value="australia">Australia</option>
+                          <option value="Albania">Albania</option>
+                          <option value="Algeria">Algeria</option>
+                          <option value="Argentina">Argentina</option>
+                          <option value="Austria">Austria</option>
+                          <option value="Azerbaijan">Azerbaijan/option>
+                          <option value="Bahamas">Bahamas</option>
+                          <option value="Bangladesh">Bangladesh</option>
+                          <option value="Barbados">Barbados</option>
+                          <option value="Belarus">Belarus</option>
+                          <option value="Belgium">Belgium</option>
+                          <option value="Belize">Belize</option>
+                          <option value="Bermuda">Bermuda</option>
+                          <option value="Bolivia">Bolivia</option>
+                          <option value="Bosnia">Bosnia</option>
+                          <option value="Brazil">Brazil</option>
+                          <option value="Bulgaria">Bulgaria</option>
+                          <option value="Cambodia">Cambodia</option>
+                          <option value="Cameroon">Cameroon</option>
+                          <option value="Canada">Canada</option>
+                          <option value="Cape Verde ">Cape Verde </option>
+                          <option value="Chile">Chile</option>
+                          <option value="China">China</option>
+                          <option value="Columbia">Columbia</option>
+                          <option value="Costa Rica">Costa Rica</option>
+                          <option value="Croatia">Croatia</option>
+                          <option value="Cuba">Cuba</option>
+                          <option value="Czechoslovakia">Czechoslovakia</option>
+                          <option value="Denmark">Denmark</option>
+                          <option value="Dominican Republic">Dominican Republic</option>
+                          <option value="Ecuador">Ecuador</option>
+                          <option value="Egypt">Egypt</option>
+                          <option value="England">England</option>
+                          <option value="Ethiopia">Ethiopia</option>
+                          <option value="Finland">Finland</option>
+                          <option value="France">France</option>
+                          <option value="Germany">Germany</option>
+                          <option value="Ghana">Ghana</option>
+                          <option value="Guatemala">Guatemala</option>
+                          <option value="Hong Kong">Hong Kong</option>
+                          <option value="Hungary">Hungary</option>
+                          <option value="India">India</option>
+                          <option value="Indonesia">Indonesia</option>
+                          <option value="Iran">Iran</option>
+                          <option value="Iraq">Iraq</option>
+                          <option value="Jamaica">Jamaica</option>
+                          <option value="Japan">Japan</option>
+                          <option value="Kenya">Kenya</option>
+                          <option value="Korea">Korea</option>
+                          <option value="Lebanon">Lebanon</option>
+                          <option value="Liberia">Liberia</option>
+                          <option value="Lithuania">Lithuania</option>
+                          <option value="Macedonia">Macedonia</option>
+                          <option value="Malaysia">Malaysia</option>
+                          <option value="Mexico">Mexico</option>
+                          <option value="Morocco">Morocco</option>
+                          <option value="Netherlands">Netherlands</option>
+                          <option value="New Zealand">New Zealand</option>
+                          <option value="Nigeria">Nigeria</option>
+                          <option value="Northern">Northern</option>
+                          <option value="Pakistan">Pakistan</option>
+                          <option value="Panama">Panama</option>
+                          <option value="Paraguay">Paraguay</option>
+                          <option value="Peru">Peru</option>
+                          <option value="Philippines">Philippines</option>
+                          <option value="Poland">Poland</option>
+                          <option value=""></option>
+                          <option value=""></option>
+                          <option value=""></option>
+                          <option value=""></option>
+                          <option value=""></option>
+                          <option value=""></option>
+                          <option value=""></option>
+                          <option value=""></option>
+                          <option value=""></option>
+                          <option value=""></option>
+                          <option value=""></option>
+                          <option value=""></option>
+                          <option value=""></option>
+                          <option value=""></option>
+                          <option value=""></option>
+                          <option value=""></option>
+                          <option value=""></option>
+                          <option value=""></option>
+                          <option value=""></option>
+                        </select>
+                        <label class="top" for="email">Email</label>
+                        <input id="email" name="email" placeholder="example@gmail.com" style="height:30px">
+                        <label class="top" for="Phone">Phone</label>
+                        <input id="Phone" name="Phone" placeholder="Phone" style="height:30px">
+                    </div>
+                  </fieldset>
+                  <fieldset>
+                    <legend>Other Information</legend>
+                      <div class="other-information">
+                        <label class="middle" for="llocate">Location</label>
+                        <input type="text" id="llocate" name="locate" placeholder="location">
+                        <label class="middle" for="date">Date</label>
+                        <input type="date" id="ddate" name="ddate" placeholder="date">
+                      </div>
+                  </fieldset>
+                  <fieldset>
+                    <legend>Accomodation Infromation</legend>
+                      <div class="accomodation-info"></div>
+                        <p>Number of rooms: 12</p>
+                        <p>Executive</p>
+                        <p>Usual</p>
+                        <p>Vip</p>
+                        <p>Commandant</p>
+                        <p>Intermediate</p>
+                        <p>Professional</p>
+                  </fieldset>
+              </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p class="copyright">
+            &copy; 2022 Echamberofcommerce| Emediong H. Edet | WDD 230 Project | Last Modification: <span id="currentdate"></span>
+            <li><a href="data.json">Services</a></li>
+        </p>
+        <P id="open-weather">Weather Provided By: <a href="https://openweathermap.org/">OpenWeather</a></P>
+        <p class="number-of-visits"><span class="label">Number of Visits: </span><span class="visits"></span></p>
+    </footer>
+
+    <script src="js/weather.js"></script>
+    <script src="js/toggle.js"></script>
+    <script src="js/directory.js"></script>
+    <script></script>
+    <script></script>
+    <script></script>
+</body>
+</html>

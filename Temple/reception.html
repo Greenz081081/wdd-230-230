@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/shortcut_icon.png">
+    <title>Temple Inn</title>
+    <meta name="deacription" 
+        content="Home page for the Temple Inn site. A home page 
+        known as the index.html which give's the introductory background 
+        of the site.">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/normalize.css">
+</head>
+<body>
+    <header>
+        <div class="site-logo">
+            <img src="images/Site_logo.png" alt="logo img">
+            <h4>L.D.S Temple Inn</h4>
+        </div>
+        <!-- <div class="invite"><span id="invitation"></span></div> -->
+            <nav class="header-nav">
+                <!-- <a id="whatsapp" href="https://www.whatsapp.com/"><img src="images/whatsapp.png" alt="WhatsApp Icon"></a>
+                <a id="facebook" href="https://www.whatsapp.com/"><img src="images/facebook_icon.png" alt="Facebook Icon"></a> -->
+                <button id="hamburgerButton">&#9776;</button>
+                <ul id="primaryNav">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="temple.html">Temple</a></li>
+                    <li><a href="reservation.html">Reservation</a></li>
+                    <li><a href="services.html">Services</a></li>
+                </ul>
+                <!-- <div class="date"></div> -->
+            </nav>
+    </header>
+
+    <main>
+        <div class="home-grid">
+            <div class="reservation-paragraph">
+                <p>📄 The Temple page describes the details for at least four temples
+                    of your choice providing information about the address, telephone,
+                    email, services, history, ordinance schedule, session schedule, 
+                    temple closure schedule. This information must be stored in a separate 
+                    JSON file in order to be considered for full credit. 
+                    You can store this .json file in another 📁folder in your site folder.
+                    Display the temple information like a layout of 'cards'. 
+                    You may elect to have additional information shown upon clicking a card. 
+                    Provide a 'LIKE' button/interface that the user  can click to 'like' 
+                    a particular temple and that information is stored in localStorage. 
+                    The next time a particular user visits, that 'like' indicator should be apparent.
+                </p>
+            </div>
+            <div class="reservation-img-1">
+                <img src="images/aba-temple-1.jpg" alt="image">
+            </div>
+            <div class="reservation-img-2">
+                <img src="images/aba-temple-2.jpg" alt="Image">
+            </div>
+            <div class="reservation-options">
+                <h1>Options</h1>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p class="copyright">
+            &copy; 2022 Echamberofcommerce| Emediong H. Edet | WDD 230 Project | Last Modification: <span id="currentdate"></span>
+            <li><a href="data.json">Services</a></li>
+        </p>
+        <P id="open-weather">Weather Provided By: <a href="https://openweathermap.org/">OpenWeather</a></P>
+        <p class="number-of-visits"><span class="label">Number of Visits: </span><span class="visits"></span></p>
+    </footer>
+
+    <script src="js/weather.js"></script>
+    <script src="js/toggle.js"></script>
+    <script src="js/directory.js"></script>
+    <script></script>
+    <script></script>
+    <script></script>
+</body>
+</html>
