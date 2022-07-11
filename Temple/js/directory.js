@@ -1,4 +1,4 @@
-const requestURL = '';
+const requestURL = 'https://greenz081081.github.io/wdd-230-230/Temple/data.json';
 const templeCards = document.querySelector('.cards');
 
 async function getTemples () {
