@@ -45,7 +45,7 @@ function buildTempleCards(data) {
     p5.innerHTML = `<strong>Ordinance Schedule:</strong> ${templeOrdinance}`
     p6.innerHTML = `<strong>Session Schedule:</strong> ${templeSession}`
     p7.innerHTML = `<strong>Closure Schedule:</strong> ${templeClosure}`
-    img.setAttribute("src", temple.image);
+    img.setAttribute("src", temple.Image);
     img.setAttribute("alt", `Image of ${templefullName}`);
     img.setAttribute("loading", "lazy");
 
