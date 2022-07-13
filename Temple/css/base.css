@@ -320,53 +320,6 @@ figure img {
     box-shadow: 0 0 10px;
 }
 
-.contact-list {
-    grid-row: 6;
-    grid-column: 1/7;
-    padding: 5px;
-    box-shadow: 0 0 10px;
-}
-
-.contact-list h1 {
-    text-align: center;
-    font-size: small;
-}
-
-.contact-list h3 {
-    margin-bottom: 10px;
-    font-size: small;
-}
-
-.contact-list p {
-    margin-top: 15px;
-    font-size: small;
-}
-
-.akwa-ibom {
-    padding: 5px;
-}
-
-.lagos {
-    margin-top: 5px;
-    background-color: lightgrey;
-    padding: 5px;
-}
-
-.calabar {
-    margin-top: 5px;
-    padding: 5px;
-}
-
-.abuja {
-    margin-top: 5px;
-    background-color: lightgray;
-    padding: 5px;
-}
-
-#phone {
-    width: 100%;
-    margin-left: 10px;
-}
 
 .reception-paragraph {
     grid-row: 1;
@@ -379,8 +332,6 @@ figure img {
 .reception-paragraph p {
     font-size: small;
 }
-
-
 
 .reception-img-1 {
     grid-row: 2;
@@ -441,8 +392,6 @@ figure img {
 #food {
     transition: none;
 }
-  
-
 
 #fun-services {
     grid-row: 2;
@@ -755,4 +704,78 @@ figure img {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+.cards img {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.grid .cards section {
+    background-color: white;
+    padding: 5px;
+    height: 650px;
+    width: auto;
+    box-shadow: 0 0 30px gray;
+    border-radius: 5px;
+    margin:10px auto;
+}
+
+/* .grid .cards section {
+    transition: transform .2s;
+}
+  
+.grid .cards section:hover {
+    -ms-transform: scale(0.5); 
+    -webkit-transform: scale(0.5); 
+    transform: scale(1.1); 
+} */
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 5px;
+    padding: 10px;
+}
+
+.cards p, h6 {
+    text-align: left;
+    font-size: x-small;
+    padding: 10px;
+}
+
+#directory-header {
+    text-align: center;
+    font-size: small;
+}
+
+.cards h2 {
+    text-align: center;
+    font-size: small;
+    padding: 5px;
+}
+
+.menu {
+    margin: 1rem auto;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+
+.grid .cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-gap: 20px;
+}
+
+
+.grid section {
+    flex-direction: column;
+    text-align: center;
+}
+
+.grid #directory-header {
+    font-size: x-large;
 }
