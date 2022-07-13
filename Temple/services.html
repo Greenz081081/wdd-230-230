@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/shortcut_icon.png">
+    <title>Temple Inn</title>
+    <meta name="deacription" 
+        content="Home page for the Temple Inn site. A home page 
+        known as the index.html which give's the introductory background 
+        of the site.">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/normalize.css">
+</head>
+<body>
+    <header>
+        <div class="site-logo">
+            <img src="images/Site_logo.png" alt="logo img">
+            <h4>L.D.S Temple Inn</h4>
+        </div>
+        <!-- <div class="invite"><span id="invitation"></span></div> -->
+            <nav class="header-nav">
+                <!-- <a id="whatsapp" href="https://www.whatsapp.com/"><img src="images/whatsapp.png" alt="WhatsApp Icon"></a>
+                <a id="facebook" href="https://www.whatsapp.com/"><img src="images/facebook_icon.png" alt="Facebook Icon"></a> -->
+                <button id="hamburgerButton">&#9776;</button>
+                <ul id="primaryNav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="temple.html">Temple</a></li>
+                    <li><a href="reservation.html">Reservation</a></li>
+                    <!-- <li><a href="services.html">Services</a></li> -->
+                    <div class="dropdown">
+                        <li class="dropbtn"><a href="services.html"></a>Services</li>
+                          <!-- <i class="fa fa-caret-down"></i>
+                        </li> -->
+                        <div class="dropdown-content">
+                          <a href="#">Link 1</a>
+                          <a href="#">Link 2</a>
+                          <a href="#">Link 3</a>
+                        </div>
+                      </div> 
+                </ul>
+                <!-- <div class="date"></div> -->
+            </nav>
+    </header>
+
+    <main>
+        <div class="services-home-grid">
+            <h1 id="service-header">Special Services</h1>
+            <div class="services-p-1">
+                <p><li>Free access to changing rooms and bathroom facilities for 
+                    temple patrons who have traveled far and need to change to and from church clothes
+                </li></p>
+            </div>
+            <div class="services-p-2">
+                <p><li>A playroom and low-cost, short-term babysitting services for the children of patrons</li></p>
+            </div>
+            <div class="services-p-3">
+                <p><li>Long-term stay accommodations in kitchenette suites for full-time temple missionaries</li></p>
+            </div>
+            <div class="services-p-4">
+                <p><li>Temple history themed reception and sitting area</li></p>
+            </div>
+            <div class="services-p-5">
+                <p><li>A wedding reception hall that can be easily customized with a 
+                    simple catering menu and kitchen access for food preparation and serving
+                </li></p>
+            </div>
+            <div class="services-p-6">
+                <p><li>A family search center that supports family search and ordinance work
+                </li></p>
+            </div>
+            <h1 id="amenities-header">Free Amenities</h1>
+            <div class="services-p-7">
+                <p><li>Breakfast</li></p>
+            </div>
+            <div class="services-p-8">
+                <p><li>Exercise/workout room</li></p>
+            </div>
+            <div class="services-p-9">
+                <p><li>Indoor pool</li></p>
+            </div>
+            <div class="services-p-10">
+                <p><li>WiFi high-speed internet access and smart TVs</li></p>
+            </div>
+            <div class="services-p-11">
+                <p><li>Parking</li></p>
+            </div>
+            <div class="services-p-12">
+                <p><li>Temple shuttle</li></p>
+            </div>
+            <div class="services-p-13">
+                <p><li>Family history consultation and family ordinance card service</li></p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p class="copyright">
+            &copy; 2022 Echamberofcommerce| Emediong H. Edet | WDD 230 Project | Last Modification: <span id="currentdate"></span>
+            <li><a href="data.json">Services</a></li>
+        </p>
+        <P id="open-weather">Weather Provided By: <a href="https://openweathermap.org/">OpenWeather</a></P>
+        <p class="number-of-visits"><span class="label">Number of Visits: </span><span class="visits"></span></p>
+    </footer>
+
+    <script src="js/weather.js"></script>
+    <script src="js/toggle.js"></script>
+    <script src="js/directory.js"></script>
+    <script></script>
+    <script></script>
+    <script></script>
+</body>
+</html>
