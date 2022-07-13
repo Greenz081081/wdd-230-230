@@ -722,16 +722,6 @@ figure img {
     margin:10px auto;
 }
 
-/* .grid .cards section {
-    transition: transform .2s;
-}
-  
-.grid .cards section:hover {
-    -ms-transform: scale(0.5); 
-    -webkit-transform: scale(0.5); 
-    transform: scale(1.1); 
-} */
-
 .cards {
     display: flex;
     flex-direction: column;
@@ -872,11 +862,18 @@ figure img {
 .contact-us {
     grid-row: 6;
     grid-column: 1;
-    border: 1px solid;
-    border-radius: 10px;
     height: 350px;
     text-align: center;
-    background-color: gold;
+}
+
+.contact-us fieldset {
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.contact-us legend {
+    margin: 0rem;
+    padding: 0.5rem;
 }
 
 .contact-us h6 {
