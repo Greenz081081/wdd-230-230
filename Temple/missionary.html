@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/shortcut_icon.png">
+    <title>Temple Inn</title>
+    <meta name="deacription" 
+        content="Home page for the Temple Inn site. A home page 
+        known as the index.html which give's the introductory background 
+        of the site.">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/normalize.css">
+</head>
+<body>
+    <header>
+        <div class="site-logo">
+            <img src="images/Site_logo.png" alt="logo img">
+            <h4>L.D.S Temple Inn</h4>
+        </div>
+        <!-- <div class="invite"><span id="invitation"></span></div> -->
+            <nav class="header-nav">
+                <!-- <a id="whatsapp" href="https://www.whatsapp.com/"><img src="images/whatsapp.png" alt="WhatsApp Icon"></a>
+                <a id="facebook" href="https://www.whatsapp.com/"><img src="images/facebook_icon.png" alt="Facebook Icon"></a> -->
+                <button id="hamburgerButton">&#9776;</button>
+                <ul id="primaryNav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="temple.html">Temple</a></li>
+                    <li><a href="reservation.html">Reservation</a></li>
+                    <div class="dropdown">
+                        <li><a class="dropbtn" href="services.html">Services</a></li>
+                        <div class="dropdown-content">
+                          <a href="reception.html">Reception</a>
+                          <a href="missionary.html">Missionary</a>
+                        </div>
+                    </div> 
+                </ul>
+                <!-- <div class="date"></div> -->
+            </nav>
+    </header>
+
+    <main>
+        <div class="missionary-home-grid">
+            <div class="missionary-p-1">
+                <h1>Junior Suite</h1>
+                <p>Junior suites are perfect for travelers, who just like to taste the 
+                    feeling of luxury hotel suites. If you have never ever booked a 
+                    hotel suite before, may you try junior suite first.
+                </p>
+            </div>
+            <div class="missionary-img-1">
+                <img src="images/junior-large.png" alt="Suite Image">
+            </div>
+            <div class="missionary-p-2">
+                <h1>Executive Suite</h1>
+                <P>If you are a business person, you probably have scheduled meetings or you
+                    need a calm and quiet place where you can deal with your business matters. 
+                    Executive suite is perfect for business men and women, and top managers of 
+                    companies because these suites are combining together a fully serviced office,
+                    meeting room and a luxurious hotel room together.
+                </P>
+            </div>
+            <div class="missionary-img-2">
+                <img src="images/executive-large.png" alt="Suite Image">
+            </div>
+            <div class="missionary-p-3">
+                <h1>Terrace Suite</h1>
+                <p>If you like big terraces with wonderful view and you like to spend most of your
+                    time outside instead of inside in your vacation, terrace suite will be perfect for you.
+                    Terrace suite is the most popular and the most beloved suite type. Why? Simply because 
+                    it offers a large outdoor terrace with garden furniture, while offering spacious
+                    luxury interior as well. Depending on the weather, you can decide where you want 
+                    to spend the time when you are in the hotel.
+                </p>
+            </div>
+            <div class="missionary-img-3">
+                <img src="images/terrace-large.png" alt="Suite Image">
+            </div>
+            <div class="missionary-p-4">
+                <h1>Deluxe Suite</h1>
+                <p>A classical minimalist style suite with high quality materials. Deluxe suites are 
+                    recommended for people who like spacious accommodation in reasonable price.
+                    In luxury hospitality Deluxe suite is the first “true suite” in the suite types list, 
+                    because it offers separated living area and sleeping area and meet all of the luxury 
+                    suite requirements.  Some of these suites have balcony as well, however this usually 
+                    specified in the suite name.
+                </p>
+            </div>
+            <div class="missionary-img-4">
+                <img src="images/deluxe-large.png" alt="Suite Image">
+            </div>
+            <div class="contact-us">
+                <div id="my-contact">
+                    <h1>Contact Us</h1>
+                    <h6>Address</h6>
+                    <p>Echamber Of Commerce</p>
+                    <p>Eket, Akwa Ibom State</p>
+                    <p>Nigeria</p>
+                    <h6>Phone</h6>
+                    <p><a href="tel:+234-8108139886">+234 - 8108139886</a></p>
+                    <h6>Email</h6>
+                    <p><a href="mailto:Blessededet94@gmail.com">Blessededet94@gmail.com</a></p>
+                    <div class="contact-menu">
+                        <a href="https://www.linkedin.com/in/blessed-edet-717314206/"><img id="grid" src="images/linkedln.png" alt="Linkedin Image"></a>
+                        <a href="https://www.instagram.com/ozborng/"><img id="list" src="images/instagram.png" alt="Instagram image"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p class="copyright">
+            &copy; 2022 Echamberofcommerce| Emediong H. Edet | WDD 230 Project | Last Modification: <span id="currentdate"></span>
+            <li><a href="data.json">Services</a></li>
+        </p>
+        <P id="open-weather">Weather Provided By: <a href="https://openweathermap.org/">OpenWeather</a></P>
+        <p class="number-of-visits"><span class="label">Number of Visits: </span><span class="visits"></span></p>
+    </footer>
+
+    <script src="js/weather.js"></script>
+    <script src="js/toggle.js"></script>
+    <script src="js/directory.js"></script>
+    <script></script>
+    <script></script>
+    <script></script>
+</body>
+</html>
