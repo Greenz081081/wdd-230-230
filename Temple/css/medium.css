@@ -4,7 +4,7 @@ header {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    background-color:cornsilk;
+    background-color: #CA4E79;
     border-bottom: 1px solid #bbb;
     padding: 60px;
     margin-bottom: -5px;
@@ -130,7 +130,7 @@ footer {
     padding: 10px;
     text-align: center;
     margin-bottom: 10px;
-    background-color:cornsilk;
+    background-color: #CA4E79;
 }
 
 .home-grid {
