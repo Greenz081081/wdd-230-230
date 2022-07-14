@@ -49,6 +49,7 @@ function buildTempleCards(data) {
     let templeOrdinance = `${temple.Ordinance}`;
     let templeSession = `${temple.Session}`;
     let templeClosure = `${temple.Closure}`
+
     
 
     img.setAttribute("src", temple.Image);
