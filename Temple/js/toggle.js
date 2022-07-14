@@ -5,5 +5,6 @@ function toggleMenu () {
 const x = document.querySelector("#hamburgerButton");
 x.onclick = toggleMenu;
 
+
 const lastModified = (document.lastModified);
 document.querySelector("#currentdate").textContent = lastModified;

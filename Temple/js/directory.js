@@ -15,6 +15,7 @@ async function getTemples () {
 function buildTempleCards(data) {
   data.Temples.forEach(temple => {
     let card = document.createElement("section");
+    let h4 = document.createElement("h4");
     let p = document.createElement("p");
     let p2 = document.createElement("p");
     let p3 = document.createElement("p");
@@ -22,9 +23,22 @@ function buildTempleCards(data) {
     let p5 = document.createElement("p");
     let p6 = document.createElement("p");
     let p7 = document.createElement("p");
+    let p8 = document.createElement("p");
     let img = document.createElement("img");
     let h2 = document.createElement("h2");
     let h6 = document.createElement("h6");
+
+    let numLikes = Number(window.localStorage.getItem("likes-ls"));
+
+    const x = h4;
+    x.onclick = numLikes;
+
+    if (numLikes === 0) {
+      p8 = x;
+    }
+
+    numLikes++
+    localStorage.setItem("likes-ls", numLikes);
 
     let templefullName = `${temple.Name}`;
     let templeAddress = `${temple.Location}`;
@@ -34,8 +48,12 @@ function buildTempleCards(data) {
     let templeHistory = `${temple.History}`;
     let templeOrdinance = `${temple.Ordinance}`;
     let templeSession = `${temple.Session}`;
-    let templeClosure = `${temple.Closure}`;
+    let templeClosure = `${temple.Closure}`
+    
 
+    img.setAttribute("src", temple.Image);
+    img.setAttribute("alt", `Image of ${templefullName}`);
+    img.setAttribute("loading", "lazy");
     h2.innerHTML = templefullName;
     h6.innerHTML = `<strong>Mail:</strong> ${templeEmail}`;
     p.innerHTML = `<strong>Address:</strong> ${templeAddress}`;
@@ -45,12 +63,12 @@ function buildTempleCards(data) {
     p5.innerHTML = `<strong>Ordinance Schedule:</strong> ${templeOrdinance}`
     p6.innerHTML = `<strong>Session Schedule:</strong> ${templeSession}`
     p7.innerHTML = `<strong>Closure Schedule:</strong> ${templeClosure}`
-    img.setAttribute("src", temple.Image);
-    img.setAttribute("alt", `Image of ${templefullName}`);
-    img.setAttribute("loading", "lazy");
+    h4.innerHTML  = `<button>Like</button>`;
 
+
+    card.append(img);
     card.append(h2);
-    card.append(h6)
+    card.append(h6);
     card.appendChild(p);
     card.appendChild(p2);
     card.appendChild(p3);
@@ -58,11 +76,17 @@ function buildTempleCards(data) {
     card.appendChild(p5);
     card.appendChild(p6);
     card.appendChild(p7);
-    card.append(img)
+    card.append(h4);
+    card.append(p8);
 
     templeCards.append(card);
+
+
   });
+
 }
+
+
 
 getTemples();
 
@@ -81,3 +105,13 @@ function showList() {
   display.classList.add("list");
   display.classList.remove("grid");
 }
+
+
+
+// let numLikes = Number(window.localStorage.getItem("likes-ls"));
+
+// if (numLikes !== 0) {
+//   h4.text
+// }
+
+// localStorage.setItem("likes-ls", numLikes);
