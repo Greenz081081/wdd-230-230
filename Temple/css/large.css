@@ -636,6 +636,10 @@
         font-size: 16px;
         padding: 5px;
     }
+
+    .cards-main h1 {
+        text-align: center;
+    }
     
     .menu {
         margin: 1rem auto;

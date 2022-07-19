@@ -820,6 +820,9 @@ figure img {
     font-size: small;
     padding: 5px;
 }
+.cards-main h1 {
+    text-align: center;
+}
 
 .cards button {
     font-size: larger;
