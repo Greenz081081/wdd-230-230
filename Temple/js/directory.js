@@ -28,17 +28,6 @@ function buildTempleCards(data) {
     let h2 = document.createElement("h2");
     let h6 = document.createElement("h6");
 
-    let numLikes = Number(window.localStorage.getItem("likes-ls"));
-
-    const x = h4;
-    x.onclick = numLikes;
-
-    if (numLikes === 0) {
-      p8 = x;
-    }
-
-    numLikes++
-    localStorage.setItem("likes-ls", numLikes);
 
     let templefullName = `${temple.Name}`;
     let templeAddress = `${temple.Location}`;
@@ -49,8 +38,7 @@ function buildTempleCards(data) {
     let templeOrdinance = `${temple.Ordinance}`;
     let templeSession = `${temple.Session}`;
     let templeClosure = `${temple.Closure}`
-
-    
+    // let likes = `${temple.Like}`;
 
     img.setAttribute("src", temple.Image);
     img.setAttribute("alt", `Image of ${templefullName}`);
@@ -65,7 +53,24 @@ function buildTempleCards(data) {
     p6.innerHTML = `<strong>Session Schedule:</strong> ${templeSession}`
     p7.innerHTML = `<strong>Closure Schedule:</strong> ${templeClosure}`
     h4.innerHTML  = `<button>Like</button>`;
+    // p8.textContent = multiplyNumLikes;
 
+    let btn = h4;
+
+    let multiplyNumLikes = 0;
+    localStorage.getItem("clickCount");
+
+    btn.addEventListener("click", function() {
+      multiplyNumLikes++;
+      if (multiplyNumLikes == 1) {
+        p8.textContent = `${multiplyNumLikes} Like`;
+      } else {
+        p8.textContent = `${multiplyNumLikes} Likes`;
+      }
+
+    });
+
+    localStorage.setItem("clickCount", multiplyNumLikes);
 
     card.append(img);
     card.append(h2);
@@ -79,10 +84,9 @@ function buildTempleCards(data) {
     card.appendChild(p7);
     card.append(h4);
     card.append(p8);
+   
 
     templeCards.append(card);
-
-
   });
 
 }
