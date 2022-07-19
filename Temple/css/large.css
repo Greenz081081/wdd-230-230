@@ -107,11 +107,77 @@
     }
     
     footer {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
         margin-top: 20px;
-        padding: 80px;
         text-align: center;
-        margin-bottom: 10px;
         background-color: #CA4E79;
+        text-align: center;
+        height: 400px;
+    }
+    
+    footer img {
+        width: 50px;
+        height: 50px;
+        border-radius: 200px;
+    }
+    
+    .footer-site-logo {
+        grid-row: 2;
+        grid-column: 1;
+    }
+    
+    .footer-site-logo img{
+        height: 200px;
+        width: 200px;
+    }
+    
+    .address {
+        grid-row: 2;
+        grid-column: 3/5;
+    }
+    
+    .copyright {
+        grid-row: 2;
+        grid-column: 3/5;
+        margin-top: 60px;
+    }
+    
+    .footer-contact {
+        grid-row: 4;
+        grid-column: 3/5;
+        border: 1px solid;
+        height: 60px;
+        padding: 10px;
+        margin-top: -50px;
+        background-color: white;
+        border-radius: 10px;
+        text-align: center;
+        font-size: xx-large;
+    }
+    
+    .footer-contact a {
+        text-decoration: none;
+    }
+    
+    #open-weather {
+        grid-row: 5;
+        grid-column: 3/5;
+        margin-top: 20px;
+    }
+    
+    #footer-whatsapp-icon {
+        grid-row: 2;
+        grid-column: 6;
+        margin-top: 80px;
+        margin-left: -50px;
+    }
+    
+    #footer-facebook-icon {
+        grid-row: 2;
+        grid-column: 5;
+        margin-top: 80px;
+        margin-left: 180px;
     }
     
     .home-grid {

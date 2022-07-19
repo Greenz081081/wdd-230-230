@@ -14,33 +14,48 @@ header {
     margin-bottom: -5px;
 }
 
+#whatsapp img {
+    border-radius: 50px;
+}
+
+#facebook img {
+    border-radius: 50px;
+}
+
+#facebook img {
+    width: 40px;
+    margin-top: -10px;
+}
+
+#whatsapp img {
+    width: 40px;
+    margin-top: -10px;
+    margin-left: -30px;
+}
+
+#whatsapp {
+    margin-top: 10px;
+    margin-left: -30px;
+}
+
+#facebook {
+    margin-top: 10px;
+}
+
 
 .site-logo img {
     width: 50px;
     height: 50px;
     border-radius: 200px;
     padding: 2px;
-    box-shadow: 5px 5px 5px #999;
-    margin-top: -15px;
-    margin-left: -60px;
+    margin-top: -5px;
+    margin-left: -40px;
 } 
 
 .site-logo h4 {
-    margin-left: -8px;
+    margin-left: 20px;
     margin-top: -35px;
     font-size: small;
-}
-
-.date {
-    position: absolute;
-    left: 0px;
-    text-align: center;
-    margin-top: 20px;
-    border: 1px solid;
-    width: 100%;
-    background-color: #18978F;
-    color: white;
-    padding: 8px;
 }
 
 nav {
@@ -50,25 +65,25 @@ nav {
     text-align:right;
 }
 
-
 nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    margin-right: -55px;
+    margin-right: -45px;
     margin-top: 8px;
-}
+} 
 
 nav button {
     background-color: transparent;
     border: .5px solid;
     font-size: 20px;
     color: #555;
-    margin-top: -50px;
     margin-left: 20px;
-    margin-right: -50px;
+    margin-right: -40px;
+    margin-top: -10px;
     padding: 5px;
 }
+
 
 nav ul li a {
     display: block;
@@ -77,10 +92,6 @@ nav ul li a {
     text-decoration: none;
 }
 
-nav ul li {
-    border-right: 5px solid cornsilk;
-    border-radius: 10px;
-}
 
 nav ul li.active a {
     color: red;
@@ -111,12 +122,25 @@ main {
 }
 
 footer {
+    /* display: grid;
+    grid-template-columns: repeat(6, 1fr); */
     display: flex;
     flex-direction: column;
     margin-top: 20px;
     text-align: center;
-    margin-bottom: 10px;
     background-color:  #F47C7C;
+    text-align: center;
+}
+
+footer img {
+    width: 50px;
+    height: 50px;
+    border-radius: 200px;
+}
+
+.footer-site-logo img{
+    height: 200px;
+    width: 200px;
 }
 
 .home-grid {
