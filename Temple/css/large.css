@@ -432,13 +432,13 @@
     .reception-paragraph {
         grid-row: 1;
         grid-column: 1/7;
-        height: 300px;
+        height: 400px;
         padding: 10px;
         box-shadow: 0 0 50px #bbb;
     }
     
     .reception-paragraph p {
-        font-size: large;
+        font-size: 14px;
     }
 
     #food {
