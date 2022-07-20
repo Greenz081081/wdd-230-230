@@ -6,8 +6,8 @@ const captionDescription = document.querySelector('figure');
 
 
 
-// const url = `https://api.openweathermap.org/data/2.5/forecast/daily?q=EKet&units=Imperial&cnt=3&appid=cb411365f163ce2a1a5d327896469c7f`;
-const url = `https://api.openweathermap.org/data/2.5/weather?q=Eket,NG&units=Imperial&appid=cb411365f163ce2a1a5d327896469c7f`;
+// const url = `https://api.openweathermap.org/data/2.5/weather?lat=35&lon=139&appid=cb411365f163ce2a1a5d327896469c7f`;
+const url = `https://api.openweathermap.org/data/2.5/forecast?lat=35&lon=139&appid=cb411365f163ce2a1a5d327896469c7f`;
 
 
 async function apiFetch() {
@@ -29,40 +29,26 @@ async function apiFetch() {
   apiFetch();
 
 function displayResults(weatherData) {
-    currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
+    // currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
 
-    const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
-    const desc = weatherData.weather[0].description;
-    const speed = weatherData.wind.speed;
-    const temp = weatherData.main.temp;
-    const humidity = weatherData.main.humidity;
+    const iconsrc = `https://openweathermap.org/img/w/${weatherData.list[0].weather[0].icon}.png`;
+    const desc = weatherData.list[0].weather[0].description;
+    const temp = weatherData.list[0].main.temp;
+    const humidity = weatherData.list[0].main.humidity;
 
     let section = document.createElement("section");
     let image = document.createElement("img");
-    let h6 = document.createElement("h6");
     let p = document.createElement("p");
     let p2 = document.createElement("p");
     let p3 = document.createElement("p");
 
-    let result = 35.74 + 0.6215 * temp - 33.75 * (speed ** 0.16) + 0.4275 * temp * (speed ** 0.16);
-    let description = desc[0].toUpperCase() + desc.slice(1);
- 
-
-    if (temp >= 50 && speed >= 3.0) {
-    p2.innerHTML = `<strong>Wind Chill:</strong> ${result.toFixed(2)}&deg;F`;
-
-    } else if (temp > 50 && speed < 3.0) {
-    p2.innerHTML = `<strong>Wind Chill:</strong> ${"N/A"}`;
-    }
-
     image.setAttribute('src', iconsrc);
     image.setAttribute('alt', desc);
-    h6.innerHTML = description;
-    p.innerHTML = `<strong>Wind Speed:</strong> ${speed.toFixed(1)}km/h`;
-    p3.innerHTML =`<strong>Humidity:</strong> ${humidity}`;
+    p.innerHTML = `<strong>Condition Description:</strong> ${desc}`;
+    p2.innerHTML = `The current<strong> Temperature</strong> is: ${temp.toFixed(1)}&deg;F`;
+    p3.innerHTML =`<strong>Humidity:</strong> ${humidity}%`;
 
     section.append(image);
-    section.append(h6);
     section.appendChild(p);
     section.appendChild(p2);
     section.appendChild(p3);
@@ -77,50 +63,42 @@ const daysName = [
   "Wednesday",
   "Thursday",
   "Friday",
-  "Saturday",
-];
+  "Saturday"
+]
 
 const day = new Date();
 const dayname = daysName[day.getDay()];
 
+
 function displayThreeDayResults(weatherData) {
-  currentTemperature.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
-
-
-  const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
-  const desc = weatherData.weather[0].description;
-  const speed = weatherData.wind.speed;
-  const temp = weatherData.main.temp;
-  const humidity = weatherData.main.humidity;
+  // currentTemperature.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
+  const moningTime = weatherData.list[1].dt_txt;
+  const afternoonTime = weatherData.list[2].dt_txt;
+  const nightTime = weatherData.list[3].dt_txt;
+  const morningTemp = weatherData.list[1].main.temp;
+  const afternoonTemp = weatherData.list[2].main.temp;
+  const nightTemp = weatherData.list[3].main.temp;
 
   let section = document.createElement("section");
-  let image = document.createElement("img");
-  let h6 = document.createElement("h6");
   let p = document.createElement("p");
   let p2 = document.createElement("p");
   let p3 = document.createElement("p");
+  let h3_1 = document.createElement("h3");
+  let h3_2 = document.createElement("h3");
+  let h3_3 = document.createElement("h3");
 
-  let result = 35.74 + 0.6215 * temp - 33.75 * (speed ** 0.16) + 0.4275 * temp * (speed ** 0.16);
-  let description = desc[0].toUpperCase() + desc.slice(1);
-
-
-  if (temp >= 50 && speed >= 3.0) {
-  p2.innerHTML = `<strong>Wind Chill:</strong> ${result.toFixed(2)}&deg;F`;
-
-  } else if (temp > 50 && speed < 3.0) {
-  p2.innerHTML = `<strong>Wind Chill:</strong> ${"N/A"}`;
-  }
-
-  image.setAttribute('src', iconsrc);
-  image.setAttribute('alt', desc);
-  h6.innerHTML = description;
-  p.innerHTML = `<strong>Wind Speed:</strong> ${speed.toFixed(1)}km/h`;
-  p3.innerHTML =`<strong>Humidity:</strong> ${humidity}`;
-
-  section.append(image);
-  section.append(h6);
+  p.innerHTML = `<strong>Temp:</strong> ${morningTemp}&deg;F`;
+  p2.innerHTML = `<strong>Temp:</strong> ${afternoonTemp}&deg;F`;
+  p3.innerHTML = `<strong>Temp:</strong> ${nightTemp}&deg;F`;
+  h3_1.innerHTML = `<strong>Date Time:</strong> ${moningTime}`;
+  h3_2.innerHTML = `<strong>Date Time:</strong> ${afternoonTime}`;
+  h3_3.innerHTML = `<strong>Date Time:</strong> ${nightTime}`;
+  
+  section.append(h3_1);
   section.appendChild(p);
+  section.append(h3_2)
   section.appendChild(p2);
+  section.append(h3_3)
   section.appendChild(p3);
 
   captionDescription.append(section);

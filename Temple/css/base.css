@@ -324,6 +324,16 @@ figure img {
     text-align: center;
 }
 
+.weather-forcast h2 {
+    text-align: center;
+    width: 100%;
+    border: 1px solid;
+    height: 30px;
+    box-shadow: 0 0 20px #333;
+    background-color:  #F47C7C;
+    padding: 2px;
+}
+
 .temple-activities {
     grid-row: 5;
     grid-column: 1/7;
