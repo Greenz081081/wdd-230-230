@@ -96,9 +96,6 @@ nav ul li {
     border-radius: 10px;
 }
 
-nav ul li.active a {
-    color: red;
-}
 
 nav ul li a:hover {
     background-color: rgba(0,0,0,0.3);
@@ -161,9 +158,6 @@ footer {
     left: 20px;
     top: 30px;
     border-radius: 10px;
-    background-color: black;
-    color: white;
-    font-size: smaller;
 }
 
 .hero-paragraph {

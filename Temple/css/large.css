@@ -89,9 +89,6 @@
         margin-left: 0px;
     }
     
-    nav ul li.active a {
-        color: red;
-    }
     
     nav ul li a:hover {
         text-decoration:none;
@@ -179,6 +176,12 @@
         margin-top: 80px;
         margin-left: 180px;
     }
+
+    #map {
+        grid-row: 2;
+        grid-column: 3/5;
+        margin-top: 150px;
+    }
     
     .home-grid {
         display: grid;
@@ -203,13 +206,23 @@
     
     #call-to-action {
         position: absolute;
-        border: 1px solid;
+        border: 1px solid #ddd;
         padding: 5px;
-        left: 20px;
+        left: 40px;
         top: 30px;
         border-radius: 10px;
-        background-color: black;
-        color: white;
+    }
+
+    #call-to-action {
+        transition: transform .2s;
+    }
+      
+    #call-to-action:hover {
+        -ms-transform: scale(0.5);
+        -webkit-transform: scale(0.5);
+        transform: scale(1.1);
+        background-color: #F47C7C;
+        cursor: pointer;
     }
     
     .hero-paragraph {

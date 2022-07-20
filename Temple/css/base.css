@@ -94,7 +94,7 @@ nav ul li a {
 
 
 nav ul li.active a {
-    color: red;
+    color: white;
 }
 
 nav ul li a:hover {
@@ -122,8 +122,6 @@ main {
 }
 
 footer {
-    /* display: grid;
-    grid-template-columns: repeat(6, 1fr); */
     display: flex;
     flex-direction: column;
     margin-top: 20px;
@@ -141,6 +139,27 @@ footer img {
 .footer-site-logo img{
     height: 200px;
     width: 200px;
+    margin-top: 10px;
+}
+
+.footer-contact {
+    border: 1px solid;
+    height: 60px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    font-size: xx-large;
+    margin-bottom: 10px;
+}
+
+.footer-contact a {
+    text-decoration: none;
+}
+
+#footer-whatsapp-icon {
+    margin-top: 20px;
 }
 
 .home-grid {
@@ -168,12 +187,15 @@ footer img {
 
 #call-to-action {
     position: absolute;
-    border: 1px solid;
+    border: 1px solid #ddd;
     padding: 5px;
     left: 20px;
     top: 30px;
     border-radius: 10px;
-    background-color: black;
+}
+
+#call-to-action a {
+    text-decoration: none;
     color: white;
     font-size: smaller;
 }
