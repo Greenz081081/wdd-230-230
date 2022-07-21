@@ -23,7 +23,7 @@ function buildTempleCards(data) {
     let p5 = document.createElement("p");
     let p6 = document.createElement("p");
     let p7 = document.createElement("p");
-    let p8 = document.createElement("p");
+    let p8 = document.createElement("h2");
     let img = document.createElement("img");
     let h2 = document.createElement("h2");
     let h6 = document.createElement("h6");
@@ -38,7 +38,7 @@ function buildTempleCards(data) {
     let templeOrdinance = `${temple.Ordinance}`;
     let templeSession = `${temple.Session}`;
     let templeClosure = `${temple.Closure}`
-    // let likes = `${temple.Like}`;
+
 
     img.setAttribute("src", temple.Image);
     img.setAttribute("alt", `Image of ${templefullName}`);
@@ -53,7 +53,6 @@ function buildTempleCards(data) {
     p6.innerHTML = `<strong>Session Schedule:</strong> ${templeSession}`
     p7.innerHTML = `<strong>Closure Schedule:</strong> ${templeClosure}`
     h4.innerHTML  = `<button>Like</button>`;
-    // p8.textContent = multiplyNumLikes;
 
     let btn = h4;
 
@@ -92,14 +91,3 @@ function buildTempleCards(data) {
 }
 
 getTemples();
-
-
-
-
-// let numLikes = Number(window.localStorage.getItem("likes-ls"));
-
-// if (numLikes !== 0) {
-//   h4.text
-// }
-
-// localStorage.setItem("likes-ls", numLikes);

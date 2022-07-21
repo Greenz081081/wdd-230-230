@@ -35,7 +35,7 @@ header {
     margin-left: -40px;
 } 
 
-.site-logo h4 {
+.site-logo h1 {
     margin-left: 20px;
     margin-top: -35px;
     font-size: small;
@@ -847,7 +847,7 @@ figure img {
 .grid .cards section {
     background-color: white;
     padding: 5px;
-    height: 700px;
+    height: 750px;
     width: auto;
     box-shadow: 0 0 30px gray;
     border-radius: 5px;
@@ -863,8 +863,8 @@ figure img {
 
 .cards p, h6 {
     text-align: left;
-    font-size: x-small;
-    padding: 10px;
+    font-size: small;
+    padding: 5px;
 }
 
 #directory-header {
@@ -873,9 +873,10 @@ figure img {
 }
 
 .cards h2 {
-    text-align: center;
+    text-align: left;
     font-size: small;
-    padding: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 .cards-main h1 {
     text-align: center;
@@ -894,7 +895,7 @@ figure img {
 .cards h4 {
     text-align: left;
     margin-left: 10px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .menu {
