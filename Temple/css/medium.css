@@ -105,6 +105,14 @@ footer {
     background-color: #CA4E79;
 }
 
+#footer-whatsapp-icon {
+    margin-left: 370px;
+}
+
+#footer-facebook-icon {
+    margin-left: 370px;
+}
+
 .home-grid {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
