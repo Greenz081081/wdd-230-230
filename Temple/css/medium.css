@@ -459,6 +459,16 @@ figure img {
     width: 100%;
 }
 
+.missionary-home-grid #reservation-form {
+    grid-row: 7;
+    grid-column: 1/4;
+    margin-top: -30px;
+}
+
+#reservation-submit {
+    margin-left: 250px;
+}
+
 .contact-us {
     grid-row: 6;
     grid-column: 1/4;

@@ -47,7 +47,7 @@
                   <fieldset>
                     <legend>Personal Information</legend>
                       <div class="Personal-information">
-                        <label class="top" for="fname">Full Name</label>
+                        <label class="top" for="fname">Full Name*</label>
                         <input type="text" id="fname" name="firstname" placeholder="Your name.." required="required">
                         <label class="top" for="country">Home State or Country</label>
                         <select id="country" name="country">
@@ -161,28 +161,37 @@
                           <option value="Yugoslavia">Yugoslavia</option>
                           <option value="Zimbabwe">Zimbabwe</option>
                         </select>
-                        <label class="top" for="email">Email</label>
+                        <label class="top" for="email">Email*</label>
                         <input id="email" name="email" placeholder="example@gmail.com" style="height:30px" required="required">
-                        <label class="top" for="Phone">Phone</label>
+                        <label class="top" for="Phone">Phone*</label>
                         <input id="Phone" name="Phone" placeholder="Phone" style="height:30px" required="required">
                     </div>
                   </fieldset>
                   <fieldset>
                     <legend>Other Information</legend>
                       <div class="other-information">
-                        <label class="middle" for="llocate">Location</label>
+                        <label class="middle" for="llocate">Location*</label>
                         <input type="text" id="llocate" name="locate" placeholder="location" required="required">
                         <label class="middle">Date</label>
                         <input type="date" id="ddate" name="ddate">
                       </div>
                   </fieldset>
                   <fieldset class="accomodation">
-                    <legend>Accomodation Infromation</legend>
+                    <legend>Room Information</legend>
                         <div class="room-type">
-                          <label class="middle">Room Type</label>
+                          <label class="middle">Room Type*</label>
                           <input type="text" id="rroom" name="room" required="required">
                           <label class="middle">Number of Rooms</label>
                           <input type="number" id="roomnumber" name="roomnum">
+                        </div>
+                  </fieldset>
+                  <fieldset class="special-accomodation-form">
+                    <legend>Accomodation Information</legend>
+                        <div class="accomodation-type">
+                          <label class="top">Special Accomodation Type</label>
+                          <input type="text" id="aaccomodation" name="accommodation">
+                          <label class="top">Comments</label>
+                          <textarea id="text-area" name="text-area" placeholder="Type here" rows="4" cols="60"></textarea>
                         </div>
                   </fieldset>
                   <button type="submit" id="reservation-submit" name="submit-2">Submit</button>
@@ -223,7 +232,6 @@
         <div class="address">Address: 4800 Montgomery Ln #300,Bethesda, MD 20814</div>
         <p class="copyright">
             &copy; 2022 L.D.S Temple Inn & Suites| Emediong H. Edet | WDD 230 Project | Last Modification: <span id="currentdate"></span>
-            <a href="data.json">Services</a>
           </p>
         <p id="map">Map:<a target="blank" href="https://www.google.com/maps/@12.3158262,14.0721961,5.29z">Google Map</a></p>
         <P id="open-weather">Weather Provided By: <a href="https://openweathermap.org/">OpenWeather</a></P>

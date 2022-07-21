@@ -109,6 +109,26 @@
                     </fieldset>
                 </div>
             </div>
+            <form id="reservation-form" action="feedback.html">
+                <fieldset>
+                    <legend>Questions Here</legend>
+                    <label class="top">First Name*</label>
+                    <input type="text" id="first-name" name="firstName" required="required">
+
+                    <label class="top">Last Name*</label>
+                    <input type="text" id="last-name" name="lastName" required="required">
+
+                    <label class="top">Email*</label>
+                    <input type="email" name="user-email" required="required">
+
+                    <label class="top">Location*</label>
+                    <input type="text" name="company" required="required">
+
+                    <label class="top">Question/Concern</label>
+                    <textarea id="text-area" name="question"></textarea>
+                </fieldset>
+                <button type="submit" id="reservation-submit" name="submit">Submit</button>
+            </form>
         </div>
     </main>
 
@@ -119,7 +139,6 @@
         <div class="address"><strong>Address:</strong> 4800 Montgomery Ln #300,Bethesda, MD 20814</div>
         <p class="copyright">
             &copy; 2022 L.D.S Temple Inn & Suites| Emediong H. Edet | WDD 230 Project | Last Modification: <span id="currentdate"></span>
-            <a href="data.json">Services</a>
           </p>
         <p id="map">Map:<a target="blank" href="https://www.google.com/maps/@12.3158262,14.0721961,5.29z">Google Map</a></p>
         <P id="open-weather">Weather Provided By: <a href="https://openweathermap.org/">OpenWeather</a></P>
