@@ -72,12 +72,12 @@ const dayname = daysName[day.getDay()];
 
 function displayThreeDayResults(weatherData) {
   // currentTemperature.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
-  const moningTime = weatherData.list[1].dt_txt;
-  const afternoonTime = weatherData.list[2].dt_txt;
-  const nightTime = weatherData.list[3].dt_txt;
-  const morningTemp = weatherData.list[1].main.temp;
-  const afternoonTemp = weatherData.list[2].main.temp;
-  const nightTemp = weatherData.list[3].main.temp;
+  const moningTime = weatherData.list[6].dt_txt;
+  const afternoonTime = weatherData.list[14].dt_txt;
+  const nightTime = weatherData.list[22].dt_txt;
+  const morningTemp = weatherData.list[6].main.temp;
+  const afternoonTemp = weatherData.list[14].main.temp;
+  const nightTemp = weatherData.list[22].main.temp;
 
   let section = document.createElement("section");
   let p = document.createElement("p");

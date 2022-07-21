@@ -36,19 +36,18 @@
                         </div>
                     </div> 
                 </ul>
-                <!-- <div class="date"></div> -->
             </nav>
     </header>
 
     <main>
         <div class="home-grid">
-                <form id="reservation-form" action="temple.html">
+                <form id="reservation-form" action="feedback.html">
                   <h1>Fill Below For Normal Stay</h1>
                   <fieldset>
                     <legend>Personal Information</legend>
                       <div class="Personal-information">
                         <label class="top" for="fname">Full Name</label>
-                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                        <input type="text" id="fname" name="firstname" placeholder="Your name.." required="required">
                         <label class="top" for="country">Home State or Country</label>
                         <select id="country" name="country">
                           <option value="Afghanistan">Afghanistan</option>
@@ -162,33 +161,30 @@
                           <option value="Zimbabwe">Zimbabwe</option>
                         </select>
                         <label class="top" for="email">Email</label>
-                        <input id="email" name="email" placeholder="example@gmail.com" style="height:30px">
+                        <input id="email" name="email" placeholder="example@gmail.com" style="height:30px" required="required">
                         <label class="top" for="Phone">Phone</label>
-                        <input id="Phone" name="Phone" placeholder="Phone" style="height:30px">
+                        <input id="Phone" name="Phone" placeholder="Phone" style="height:30px" required="required">
                     </div>
                   </fieldset>
                   <fieldset>
                     <legend>Other Information</legend>
                       <div class="other-information">
                         <label class="middle" for="llocate">Location</label>
-                        <input type="text" id="llocate" name="locate" placeholder="location">
+                        <input type="text" id="llocate" name="locate" placeholder="location" required="required">
                         <label class="middle">Date</label>
                         <input type="date" id="ddate" name="ddate">
                       </div>
                   </fieldset>
                   <fieldset class="accomodation">
                     <legend>Accomodation Infromation</legend>
-                      <div class="accomodation-info"></div>
-                        <p><strong>Number of rooms:</strong> 12</p>
                         <div class="room-type">
-                          <p><strong>Types of rooms:</strong></p>
-                          <p>Daily</p>
-                          <p>3 Days</p>
-                          <p>1 Week</p>
-                          <p>2 Weeks</p>
-                          <p>1 Month</p>
+                          <label class="middle">Room Type</label>
+                          <input type="text" id="rroom" name="room" required="required">
+                          <label class="middle">Number of Rooms</label>
+                          <input type="number" id="roomnumber" name="roomnum">
                         </div>
                   </fieldset>
+                  <button type="submit" id="reservation-submit" name="submit-2">Submit</button>
               </form>
               <div class="special-accomodation">
                 <fieldset class="specialAccomodation">

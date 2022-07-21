@@ -10,36 +10,19 @@ header {
     flex-direction: row;
     background-color: #CA4E79;
     border-bottom: 1px solid #bbb;
-    padding: 16px;
+    padding: 30px;
     margin-bottom: -5px;
 }
 
-#whatsapp img {
-    border-radius: 50px;
-}
-
 #facebook img {
     border-radius: 50px;
-}
-
-#facebook img {
     width: 40px;
-    margin-top: -10px;
 }
 
 #whatsapp img {
+    border-radius: 50px;
     width: 40px;
-    margin-top: -10px;
     margin-left: -30px;
-}
-
-#whatsapp {
-    margin-top: 10px;
-    margin-left: -30px;
-}
-
-#facebook {
-    margin-top: 10px;
 }
 
 
@@ -69,9 +52,10 @@ nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    margin-right: -45px;
+    margin-right: -35px;
     margin-top: 8px;
 } 
+
 
 nav button {
     background-color: transparent;
@@ -79,11 +63,9 @@ nav button {
     font-size: 20px;
     color: #555;
     margin-left: 20px;
-    margin-right: -40px;
-    margin-top: -10px;
+    margin-right: -30px;
     padding: 5px;
 }
-
 
 nav ul li a {
     display: block;
@@ -110,10 +92,6 @@ nav ul.open {
 }
 
 
-.header-nav {
-    margin-top: 10px;
-}
-
 main {
     display: flex;
     flex-direction: column;
@@ -126,8 +104,9 @@ footer {
     flex-direction: column;
     margin-top: 20px;
     text-align: center;
-    background-color:  #F47C7C;
+    background-color: #CA4E79;
     text-align: center;
+    padding: 10px;
 }
 
 footer img {
@@ -334,6 +313,30 @@ figure img {
     padding: 2px;
 }
 
+.weather-forcast h2 {
+    grid-column: 1/4;
+    grid-row: 1;
+    font-size: small;
+    text-align: center;
+}
+
+.three-day-forcast h3 {
+    grid-column: 1/4;
+    font-size: small;
+    margin-top: 20px;
+}
+
+.three-day-forcast {
+    margin-top: 10px;
+    grid-row: 1;
+}
+
+.weather-forcast .three-day-forcast {
+    grid-column: 1/4;
+    grid-row: 1;
+}
+
+
 .temple-activities {
     grid-row: 5;
     grid-column: 1/7;
@@ -376,11 +379,9 @@ figure img {
     box-shadow: 0 0 10px;
 }
 
-
 .reception-paragraph {
     grid-row: 1;
     grid-column: 1/7;
-    /* height: 500px; */
     padding: 10px;
     box-shadow: 0 0 50px #bbb;
 }
@@ -447,7 +448,7 @@ figure img {
     flex-direction: column;
     grid-row: 4;
     grid-column: 1/7;
-    height: 350px;
+    height: 400px;
     padding: 10px;
     box-shadow: 0 0 50px #bbb;
     margin-top: 10px;
@@ -462,51 +463,22 @@ figure img {
 
 #reception-form {
     margin: auto;
-    border: 1px solid;
+    border: 5px solid #CA4E79;
     border-radius: 10px;
     padding: .5rem 2%;
     margin-top: 10px;
-    height: 300px;
+    height: 350px;
     grid-row: 3;
     grid-column: 3;
 }
 
 #reception-form fieldset {
     margin: 2rem 0;
-    border: 1px solid;
+    border: 1px solid #CA4E79;
     border-radius: 10px;
     padding: .5rem 2%;
 }
 
-#food {
-    grid-row: 1;
-    width: 200px;
-    height: 50px;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0 0 20px #bbb;
-    margin: auto;
-    margin-top: 20px;
-}
-
-#food {
-    transition: none;
-}
-
-#fun-services {
-    grid-row: 2;
-    width: 200px;
-    height: 50px;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0 0 20px #bbb;
-    margin-top: -50px;
-    margin: auto;
-}
-
-#fun-services {
-    transition: none;
-}
 
 #submit-1 {
     width: 200px;
@@ -514,18 +486,15 @@ figure img {
     padding: 10px;
     border-radius: 5px;
     margin-top: 20px;
-    border: 1px solid;
+    border: 1px solid #CA4E79;
     background-color: white;
 }
 
 #submit-1 {
-    transition: transform .2s;
+    transition: none;
 }
   
 #submit-1:hover {
-    -ms-transform: scale(0.5);
-    -webkit-transform: scale(0.5);
-    transform: scale(1.1); 
     background-color: #F47C7C;
     cursor: pointer;
 }
@@ -535,19 +504,35 @@ figure img {
     height: 50px;
     padding: 10px;
     margin-top: 100px;
-    border: 1px solid;
+    border: 1px solid #CA4E79;
     border-radius: 5px;
     background-color: white;
+    margin-bottom: 15px;
 }
 
 #submit-2 {
-    transition: transform .2s;
+    transition: none;
 }
   
 #submit-2:hover {
-    -ms-transform: scale(0.5);
-    -webkit-transform: scale(0.5);
-    transform: scale(1.1);
+    background-color: #F47C7C;
+    cursor: pointer;
+}
+
+#reservation-submit {
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: -5px;
+    border: 1px solid;
+    background-color: white;
+    margin-left: 60px;
+    margin-bottom: 15px;
+}
+
+  
+#reservation-submit:hover {
     background-color: #F47C7C;
     cursor: pointer;
 }
@@ -600,17 +585,11 @@ figure img {
     border-radius: 5px;
 }
 
-.room-type {
-    border: 1px solid;
-    border-radius: 10px;
-    background-color: #FFF2F2;
-}
 
 .special-accomodation {
     grid-row: 2;
     grid-column: 1/7;
     margin-top: -60px;
-    /* padding: 15px; */
     border-radius: 10px;
 }
 
@@ -815,7 +794,7 @@ figure img {
   background-color: inherit;
   font-family: inherit;
   width: 104px;
-  margin-left: -15px;
+  margin-left: 5px;
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
@@ -829,6 +808,7 @@ figure img {
   min-width: 75px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  margin-left: 18px;
 }
 
 .dropdown-content a {
@@ -857,7 +837,7 @@ figure img {
 .grid .cards section {
     background-color: white;
     padding: 5px;
-    height: 650px;
+    height: 700px;
     width: auto;
     box-shadow: 0 0 30px gray;
     border-radius: 5px;
@@ -1057,3 +1037,30 @@ figure img {
     margin-top: 15px;
 }
 
+.feedback-home-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding: 5px;
+}
+
+.feedback {
+    grid-row: 1;
+    grid-column: 1/7;
+    height: 400px;
+    border: .5px solid;
+    box-shadow: 0 0 30px #333;
+    text-align: center;
+    padding: 10px;
+    border-color: #CA4E79;
+    border-radius: 10px;
+}
+
+.feedback p {
+    font-size: small;
+    margin-top: 10px;
+}
+
+.feedback img {
+    height: 300px;
+    width: 100%;
+}

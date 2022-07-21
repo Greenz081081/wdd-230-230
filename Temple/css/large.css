@@ -15,12 +15,12 @@
         border-radius: 50px;
         padding: 2px;
         box-shadow: 0 0 10px gray;
-        margin-left: 20px;
+        margin-left: 10px;
     }
     
     
     .site-logo h4 {
-        margin-left: 100px;
+        margin-left: 120px;
         margin-top: -50px;
         font-size: 18px;
         margin-bottom: 10px;
@@ -30,6 +30,18 @@
         display: flex;
         flex-direction: row-reverse;
     }
+
+    .dropdown .dropbtn {
+        margin-left: -6px;
+      }
+      
+      .navbar a:hover, .dropdown:hover .dropbtn {
+          text-decoration: wavy;
+      }
+      
+      .dropdown-content {
+        margin-left: 1px;
+      }
     
     
     #facebook img {
@@ -360,6 +372,7 @@
     
     .weather-forcast h2 {
         text-align: center;
+        font-size: large;
         grid-column: 2/3;
         margin-left: 100px;
     }
@@ -372,7 +385,6 @@
     
     .weather-forcast .three-day-forcast {
         grid-column: 1;
-        margin-top: -230px;
     }
     
     .temple-activities {
@@ -526,7 +538,6 @@
         grid-column: 3;
         width: 600px;
         border-color: #CA4E79;
-        /* border-color: white; */
         box-shadow: 0 0 50px #bbb;
     }
 
@@ -560,7 +571,7 @@
         padding: 10px;
         border-radius: 5px;
         margin-top: 20px;
-        border: 1px solid;
+        border: 1px solid #CA4E79;
         background-color: white;
     }
     
@@ -581,7 +592,7 @@
         height: 50px;
         padding: 10px;
         margin-top: 100px;
-        border: 1px solid;
+        border: 1px solid #CA4E79;
         border-radius: 5px;
         background-color: white;
         margin-bottom: 10px;
@@ -648,16 +659,32 @@
         margin-left: 20px;
     }
 
-    .room-type {
+    #reservation-submit {
+        width: 200px;
+        height: 50px;
+        padding: 10px;
+        border-radius: 5px;
+        margin-top: 20px;
         border: 1px solid;
-        border-radius: 10px;
-        background-color: #FFF2F2;
+        background-color: white;
+        margin-left: 120px;
+    }
+    
+    #reservation-submit {
+        transition: transform .2s;
+    }
+      
+    #reservation-submit:hover {
+        -ms-transform: scale(0.5);
+        -webkit-transform: scale(0.5);
+        transform: scale(1.1); 
+        background-color: #F47C7C;
+        cursor: pointer;
     }
     
     .special-accomodation {
         grid-row: 1/2;
         grid-column: 3/6;
-        /* border: 1px solid; */
         height: 700px;
         margin-top: 50px;
         padding: 15px;
@@ -1053,4 +1080,33 @@
         width: 40px;
         margin-top: 15px;
     }
+
+    .feedback-home-grid {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+    }
+    
+    .feedback {
+        grid-row: 1/4;
+        grid-column: 3/5;
+        height: 400px;
+        width: 600px;
+        border: .5px solid;
+        box-shadow: 0 0 30px #333;
+        text-align: center;
+        padding: 10px;
+        border-color: #CA4E79;
+        border-radius: 10px;
+    }
+    
+    .feedback p {
+        font-size: larger;
+        margin-top: 10px;
+    }
+
+    .feedback img {
+        height: 320px;
+        width: 100%;
+    }
+
     }
