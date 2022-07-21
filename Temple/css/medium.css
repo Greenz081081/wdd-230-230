@@ -492,4 +492,40 @@ figure img {
     margin-top: 15px;
 }
 
+.grid .cards section {
+    height: 570px;
+}
+
+.weather-forcast h2 {
+    text-align: center;
+    width: 320px;
+    border: 1px solid;
+    height: 30px;
+    box-shadow: 0 0 20px #333;
+    background-color:  #F47C7C;
+    padding: 2px;
+}
+
+.weather-forcast p {
+    font-size: large;
+}
+
+.sub-forcast h2 {
+    width: 100%;
+}
+
+figcaption img {
+    width: 80px;
+    height: 80px;
+}
+
+.sub-forcast p {
+    font-size: large;
+    padding: 10px;
+}
+
+.weather-forcast h4 {
+    display: none;
+}
+
 }

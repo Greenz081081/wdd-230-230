@@ -189,9 +189,13 @@ footer img {
     font-size: smaller;
 }
 
+#call-to-action:hover {
+    background-color: #F47C7C;
+}
+
 .hero-paragraph {
     grid-row: 2;
-    height: 250px;
+    height: 350px;
     grid-column: 1/7;
     padding: 10px;
     box-shadow: 0 0 10px;
@@ -199,12 +203,12 @@ footer img {
 
 #paragraph-1 {
     margin-bottom: 10px;
-    font-size: 11px;
+    font-size: small;
 }
 
 #paragraph-2 {
     margin-top: 5px;
-    font-size: 11px;
+    font-size: small;
 }
 
 .images {
@@ -281,7 +285,7 @@ figure {
 }
 
 figure p {
-    text-align: left;
+    text-align: center;
 }
 
 figure h6 {
@@ -339,6 +343,11 @@ figure img {
 .three-day-forcast {
     margin-top: 10px;
     grid-row: 1;
+    text-align: left;
+}
+
+.three-day-forcast p {
+    text-align: left;
 }
 
 .weather-forcast .three-day-forcast {
@@ -346,6 +355,9 @@ figure img {
     grid-row: 1;
 }
 
+.weather-forcast h4 {
+    display: none;
+}
 
 .temple-activities {
     grid-row: 5;

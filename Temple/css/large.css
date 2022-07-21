@@ -23,7 +23,7 @@
         margin-left: 120px;
         margin-top: -65px;
         margin-bottom: 10px;
-        font-size: xx-large;
+        font-size: x-large;
     }
     
     .header-nav {
@@ -329,7 +329,7 @@
         grid-template-columns: repeat(3, 1fr);
         grid-row: 6/8;
         grid-column: 1/7;
-        height: 250px;
+        height: 270px;
         padding: 10px;
         box-shadow: 0 0 10px;
     }
@@ -384,12 +384,21 @@
 
     .three-day-forcast h3 {
         grid-column: 1;
-        margin-top: 20px;
+        margin-top: 5px;
         font-size: large;
     }
     
     .weather-forcast .three-day-forcast {
+        grid-column: 2;
+        margin-left: 130px;
+        margin-top: 60px;
+    }
+
+    .weather-forcast h4 {
+        grid-row: 1;
         grid-column: 1;
+        margin-top: 80px;
+        display: block;
     }
     
     .temple-activities {
