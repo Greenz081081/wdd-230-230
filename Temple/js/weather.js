@@ -1,12 +1,8 @@
-// select HTML elements in the document
 const currentTemp = document.querySelector('#current-temp');
 const captionDesc = document.querySelector('figcaption');
 const currentTemperature = document.querySelector('#current-temperature');
 const captionDescription = document.querySelector('figure');
 
-
-
-// const url = `https://api.openweathermap.org/data/2.5/weather?lat=35&lon=139&appid=cb411365f163ce2a1a5d327896469c7f`;
 const url = `https://api.openweathermap.org/data/2.5/forecast?lat=35&lon=139&appid=cb411365f163ce2a1a5d327896469c7f`;
 
 
@@ -15,7 +11,6 @@ async function apiFetch() {
       const response = await fetch(url);
       if (response.ok) {
         const data = await response.json();
-        console.log(data); // this is for testing the call
         displayResults(data);
         displayThreeDayResults(data);
       } else {
@@ -29,8 +24,6 @@ async function apiFetch() {
   apiFetch();
 
 function displayResults(weatherData) {
-    // currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
-
     const iconsrc = `https://openweathermap.org/img/w/${weatherData.list[0].weather[0].icon}.png`;
     const desc = weatherData.list[0].weather[0].description;
     const temp = weatherData.list[0].main.temp;
@@ -56,22 +49,8 @@ function displayResults(weatherData) {
     captionDesc.append(section);
 }
 
-const daysName = [
-  "Sunday",
-  "Monday",
-  "Tuesday",
-  "Wednesday",
-  "Thursday",
-  "Friday",
-  "Saturday"
-]
-
-const day = new Date();
-const dayname = daysName[day.getDay()];
-
 
 function displayThreeDayResults(weatherData) {
-  // currentTemperature.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
   const moningTime = weatherData.list[6].dt_txt;
   const afternoonTime = weatherData.list[14].dt_txt;
   const nightTime = weatherData.list[22].dt_txt;

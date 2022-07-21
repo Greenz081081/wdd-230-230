@@ -5,7 +5,6 @@ async function getTemples () {
   let response = await fetch(requestURL);
   if (response.ok) {
     let data = await response.json();
-    // console.log(data);
     buildTempleCards(data);
   } else {
     throw Error(response.statusText);
