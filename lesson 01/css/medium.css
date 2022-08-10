@@ -1,16 +1,95 @@
-@media (min-width: 32.5em) {
-    h2 {
-        font-size: 1.5rem;
-        color: black;
-    }
+@media only screen and (min-width: 500px) {
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-    h1 {
-        font-size: 1.5rem;
-        color: black;
-    }
 
-    header img {
-        border-radius: 5px;
-        box-shadow: 5px 5px 4px 1px #888;
-    }
+header, main, footer {
+    width: 100%;
+}
+
+header {
+    padding: 10px;
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    border-width: 50px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width: 100%;
+    box-shadow: 0 0 10px #888;
+}
+
+ul {
+    margin-left: 20px ;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+h2 {
+    font-size: large;
+    padding: 5px;
+    color: rgb(211, 214, 16);
+    text-align: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding: 10px;
+}
+
+.home-grid {
+    grid-row: 1;
+    grid-column: 1/7;
+    border: .5px solid purple;
+    box-shadow: 5px 5px 4px 1px #888
+}
+
+
+header h1 {
+    font-size: small;
+    grid-row: 2;
+    grid-column: 2;
+    margin-left: 180px;
+    color: rgb(211, 214, 16);
+    text-shadow: 0 0 1px;
+}
+
+header img {
+    margin-left: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 4px 1px #888;
+}
+
+header picture {
+    grid-row: 1;
+    grid-column: 2;
+    margin-left: 150px;
+}
+
+footer {
+    background-color: aliceblue;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #888;
+    padding: 10px;
+    text-align: center;
+}
+
+.paragraph-color {
+    color: purple;
+}
+
+h1, h2 {
+    font-family: 'Noto Serif', serif;
+}
+
+main p {
+    text-align: center;
+}
+
 }
